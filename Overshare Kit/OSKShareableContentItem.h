@@ -123,6 +123,12 @@ extern NSString * const OSKShareableContentItemType_TextEditing;
 @property (strong, nonatomic) NSArray *images;
 
 /**
+* An optional plain-text URL to be attached to the outgoing post.
+*/
+
+@property (strong, nonatomic) NSString *canonicalURL;
+
+/**
  The latitude component of the user's geolocation.
  */
 @property (nonatomic, assign) double latitude;
@@ -131,6 +137,8 @@ extern NSString * const OSKShareableContentItemType_TextEditing;
  The longitude component of the user's geolocation.
  */
 @property (nonatomic, assign) double longitude;
+
+
 
 @end
 

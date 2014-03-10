@@ -13,6 +13,7 @@
 #import "PocketAPI.h"
 
 #import "SampleTimelineViewController.h"
+#import "VKSdk.h"
 
 @implementation OSKAppDelegate
 
@@ -73,8 +74,8 @@
         success = YES;
     }
     else {
-        // if you handle your own custom url-schemes, do it here
-        // success = whatever;
+        [VKSdk processOpenURL:url fromApplication:sourceApplication];
+        NSLog(@"privet");
     }
     return success;
 }

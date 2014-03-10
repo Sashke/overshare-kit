@@ -70,6 +70,8 @@ extern NSString * const OSKPresentationOption_PresentationEndingHandler;
  */
 @property (weak, nonatomic) id <OSKPresentationViewControllers> viewControllerDelegate;
 
+@property (strong, nonatomic) UIViewController *presentingViewController;
+
 ///-----------------------------------------------
 /// @name Singleton Access
 ///-----------------------------------------------

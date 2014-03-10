@@ -56,6 +56,16 @@
 				<string>oversharekit</string>
 			</array>
 		</dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>vk3974615</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>vk3974615</string>
+            </array>
+        </dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>

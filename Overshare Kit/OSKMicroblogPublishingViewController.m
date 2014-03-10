@@ -466,6 +466,7 @@
         OSKManagedAccount *managedAccount = [(OSKActivity <OSKActivity_ManagedAccounts> *)self.activity activeManagedAccount];
         accountName = [managedAccount nonNilDisplayName];
     }
+
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         [self updateAccountButton_Phone:accountName];
     } else {
@@ -474,11 +475,16 @@
 }
 
 - (void)updateAccountButton_Phone:(NSString *)accountName {
-    [self.accountButton setTitle:[NSString stringWithFormat:@"%@", accountName] forState:UIControlStateNormal];
-    CGSize newSize = [self.accountButton sizeThatFits:self.keyboardToolbar.bounds.size];
-    CGRect buttonFrame = self.accountButton.frame;
-    buttonFrame.size.width = newSize.width;
-    [self.accountButton setFrame:buttonFrame];
+    if (accountName== nil){
+        self.accountButton.hidden=YES;
+    } else{
+        [self.accountButton setTitle:[NSString stringWithFormat:@"%@", accountName] forState:UIControlStateNormal];
+        CGSize newSize = [self.accountButton sizeThatFits:self.keyboardToolbar.bounds.size];
+        CGRect buttonFrame = self.accountButton.frame;
+        buttonFrame.size.width = newSize.width;
+        [self.accountButton setFrame:buttonFrame];
+    }
+
 }
 
 - (void)updateAccountButton_Pad:(NSString *)accountName {

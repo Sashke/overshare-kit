@@ -37,6 +37,7 @@
 #import "OSKSMSActivity.h"
 #import "OSKThingsActivity.h"
 #import "OSKTwitterActivity.h"
+#import "OSKVkComActivity.h"
 
 #if DEBUG == 1
 // DEVELOPMENT KEYS ONLY, YOUR APP SHOULD SUPPLY YOUR APP CREDENTIALS VIA THE CUSTOMIZATIONS DELEGATE.
@@ -47,6 +48,7 @@ static NSString * OSKApplicationCredential_Readability_Key = @"oversharedev";
 static NSString * OSKApplicationCredential_Readability_Secret = @"hWA7rwPqzvNEaK8ZbRBw9fc5kKBQMdRK";
 static NSString * OSKApplicationCredential_Facebook_Key = @"554155471323751";
 static NSString * OSKApplicationCredential_GooglePlus_Key = @"810720596839-qccfsg2b2ljn0cnu76rha48f5dguns3j.apps.googleusercontent.com";
+static NSString * OSKApplicationCredential_VKcom_key=@"3974615";
 #endif
 
 NSString * const OSKActivitiesManagerDidMarkActivityTypesAsPurchasedNotification = @"OSKActivitiesManagerDidMarkActivityTypesAsPurchasedNotification";
@@ -309,7 +311,14 @@ static NSString * OSKActivitiesManagerPersistentExclusionsKey = @"OSKActivitiesM
                                                  requireOperations:requireOperations
                                                               item:item];
     if (googlePlus) { [activities addObject:googlePlus]; }
-    
+
+    OSKVkComActivity *vkComActivity=[self validActivityForType:[OSKVkComActivity activityType]
+                                                         class:[OSKVkComActivity class]
+                                                 excludedTypes:excludedActivityTypes
+                                             requireOperations:requireOperations
+                                                          item:item];
+    if (vkComActivity){ [activities addObject:vkComActivity]; }
+
     return activities;
 }
 
@@ -651,7 +660,15 @@ static NSString * OSKActivitiesManagerPersistentExclusionsKey = @"OSKActivitiesM
                              applicationSecret:OSKApplicationCredential_Readability_Secret
                              appName:@"Overshare"];
         }
-    }
+        else if ([activityType isEqualToString:OSKActivityType_API_VKCom]){
+                appCredential=[[OSKApplicationCredential alloc]
+                        initWithOvershareApplicationKey:OSKApplicationCredential_VKcom_key
+                                      applicationSecret:nil
+                                                appName:@"Overshare"];
+        }
+
+        }
+
 #endif
     return appCredential;
 }

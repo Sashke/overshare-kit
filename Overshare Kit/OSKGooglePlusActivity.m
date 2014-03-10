@@ -58,7 +58,7 @@ static NSInteger OSKGooglePlusActivity_MaxImageCount = 3;
 
 - (void)finishedWithAuth:(GTMOAuth2Authentication *)auth error:(NSError *)error {
     __weak OSKGooglePlusActivity *weakSelf = self;
-    if (self.completionHandler && weakSelf.authenticationTimedOut == NO) {
+    if (self.completionHandler && !weakSelf.authenticationTimedOut) {
         [weakSelf cancelAuthenticationTimeoutTimer];
         dispatch_async(dispatch_get_main_queue(), ^{
             self.completionHandler((error == nil), error);
