@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.dependency 'ADNLogin'
   s.dependency 'PocketAPI'
   s.dependency 'VK-ios-sdk'
-  s.dependency 'GooglePlus-iOS-SDK'
+  s.dependency 'google-plus-ios-sdk'
 end
