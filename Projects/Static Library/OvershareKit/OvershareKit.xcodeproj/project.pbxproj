@@ -490,12 +490,6 @@
 		8895C34B18A3BA6B000B7F28 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8895C34D18A3BA70000B7F28 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8895C34F18A3BA78000B7F28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		932EF3447E2B192047183410 /* VKCom-Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VKCom-Icon-29@2x.png"; sourceTree = "<group>"; };
-		932EF4B4C311AA096B81CACD /* VKCom-Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VKCom-Icon-60@2x.png"; sourceTree = "<group>"; };
-		932EF62A32866C8839A81361 /* VKCom-Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VKCom-Icon-76@2x.png"; sourceTree = "<group>"; };
-		932EF7BA88155F2818F8D632 /* VKCom-Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VKCom-Icon-60.png"; sourceTree = "<group>"; };
-		932EF7C11D89A9EE52B2BFBB /* VKCom-Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VKCom-Icon-76.png"; sourceTree = "<group>"; };
-		932EFDA32DEDBF1E12F34FC5 /* VKCom-Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VKCom-Icon-29.png"; sourceTree = "<group>"; };
 		F2ED4093BD3864F639BD9AB1 /* GooglePlus-Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GooglePlus-Icon-76.png"; sourceTree = "<group>"; };
 		F2ED4477173538D750DC8F83 /* GooglePlus-Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GooglePlus-Icon-29.png"; sourceTree = "<group>"; };
 		F2ED44D42685E0B33F979699 /* GooglePlus-Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GooglePlus-Icon-29@2x.png"; sourceTree = "<group>"; };
@@ -956,12 +950,6 @@
 				F2ED4C4D02BFDC027DA4CF09 /* GooglePlus-Icon-60@2x.png */,
 				F2ED4093BD3864F639BD9AB1 /* GooglePlus-Icon-76.png */,
 				F2ED4EC6E2B261337F108FDF /* GooglePlus-Icon-76@2x.png */,
-				932EF3447E2B192047183410 /* VKCom-Icon-29@2x.png */,
-				932EF7C11D89A9EE52B2BFBB /* VKCom-Icon-76.png */,
-				932EF7BA88155F2818F8D632 /* VKCom-Icon-60.png */,
-				932EF4B4C311AA096B81CACD /* VKCom-Icon-60@2x.png */,
-				932EF62A32866C8839A81361 /* VKCom-Icon-76@2x.png */,
-				932EFDA32DEDBF1E12F34FC5 /* VKCom-Icon-29.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
