@@ -8,16 +8,15 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/overshare/overshare-kit.git", :tag => s.version.to_s }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-  s.frameworks   = 'UIKit'
+  s.frameworks   = 'UIKit','GoogleOpenSource', 'GooglePlus'
   
   s.compiler_flags = "-fmodules"
   
   s.ios.deployment_target = '7.0'
   
   s.source_files = ['Overshare Kit/*.{h,m}']
-  s.resources    = ['Overshare Kit/Images/*', 'Overshare Kit/*.xib']
+  s.resources    = ['Overshare Kit/Images/*', 'Overshare Kit/*.xib', ]
   
-  s.vendored_frameworks = 'GoogleOpenSource.framework', 'GooglePlus.framework'
   s.dependency 'ADNLogin'
   s.dependency 'PocketAPI'
   s.dependency 'VK-ios-sdk'
