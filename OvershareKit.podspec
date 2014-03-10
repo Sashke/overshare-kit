@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   
   s.source_files = ['Overshare Kit/*.{h,m}']
   s.resources    = ['Overshare Kit/Images/*', 'Overshare Kit/*.xib', ]
-  
+  s.vendored_frameworks = 'GoogleOpenSource', 'GooglePlus'
   s.dependency 'ADNLogin'
   s.dependency 'PocketAPI'
   s.dependency 'VK-ios-sdk'
