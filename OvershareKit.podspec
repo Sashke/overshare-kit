@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Sashke/overshare-kit"
   s.license      = { :type => 'MIT', :file => 'LICENSE'  }
   s.author       = { "Jared Sinclair" => "desk@jaredsinclair.com", "Justin Williams" => "justin@carpeaqua.com" }
-  s.source       = { :git => "https://github.com/Sashke/overshare-kit.git"}
+  s.source       = { :git => "https://github.com/Sashke/overshare-kit.git",
+                :branch => "russian-Overshare"}
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.frameworks   = 'UIKit','GoogleOpenSource', 'GooglePlus'
