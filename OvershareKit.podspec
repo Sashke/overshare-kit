@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OvershareKit"
-  s.version      = "1.1.6"
+  s.version      = "1.1.7"
   s.summary      = "A soup-to-nuts sharing library for iOS."
   s.homepage     = "https://github.com/Sashke/overshare-kit"
   s.license      = { :type => 'MIT', :file => 'LICENSE'  }
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.compiler_flags = "-fmodules"
   
   s.ios.deployment_target = '7.0'
-  
+  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' =>'$(PODS_ROOT)/google-plus-ios-sdk/google-plus-ios-sdk-1.5.0'}
   s.source_files = ['Overshare Kit/*.{h,m}']
   s.resources    = ['Overshare Kit/Images/*', 'Overshare Kit/*.xib', ]
   s.dependency 'ADNLogin'
