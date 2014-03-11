@@ -56,5 +56,6 @@
 - (NSString *)osk_localizedText_ShortenLinks;
 - (NSString *)osk_localizedText_LinksShortened;
 - (NSString *)osk_localizedText_Remove;
-
+- (NSString *)osk_localizedText_AccountManagementViewController_Title;
+- (NSString *)osk_localizedText_GenericAccountConnected;
 @end
