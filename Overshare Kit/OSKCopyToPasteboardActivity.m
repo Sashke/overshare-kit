@@ -41,7 +41,7 @@
 }
 
 + (NSString *)activityName {
-    return @"Copy";
+    return @"Копировать";
 }
 
 + (UIImage *)iconForIdiom:(UIUserInterfaceIdiom)idiom {

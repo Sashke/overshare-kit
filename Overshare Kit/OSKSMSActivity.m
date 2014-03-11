@@ -36,7 +36,7 @@
 }
 
 + (NSString *)activityName {
-    return @"Message";
+    return @"Сообщение";
 }
 
 + (UIImage *)iconForIdiom:(UIUserInterfaceIdiom)idiom {

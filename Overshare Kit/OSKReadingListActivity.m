@@ -41,7 +41,7 @@
 }
 
 + (NSString *)activityName {
-    return @"Reading List";
+    return @"Список для чтения";
 }
 
 + (UIImage *)iconForIdiom:(UIUserInterfaceIdiom)idiom {

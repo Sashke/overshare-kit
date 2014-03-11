@@ -12,6 +12,60 @@
 
 @implementation OSKShareableContent
 
+
++(instancetype)contentFromArticle:(NSString *)articleTitle articleURL:(NSString *)articleURL blogTitle:(NSString *)blogTitle{
+    NSParameterAssert(articleURL.length);
+    NSParameterAssert(articleTitle.length);
+    NSURL *url=[NSURL URLWithString:articleURL];
+    NSString *text=[NSString stringWithFormat:@"%@ %@ %@",articleTitle, articleURL, blogTitle];
+    NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+    OSKShareableContent *content=[[OSKShareableContent alloc]init];
+    content.title=text;
+
+    OSKMicroblogPostContentItem *microblogPost = [[OSKMicroblogPostContentItem alloc] init];
+    microblogPost.text = text;
+    microblogPost.canonicalURL=articleURL;
+    content.microblogPostItem = microblogPost;
+
+    OSKCopyToPasteboardContentItem *copyURLToPasteboard = [[OSKCopyToPasteboardContentItem alloc] init];
+    copyURLToPasteboard.text = text;
+    content.pasteboardItem = copyURLToPasteboard;
+
+    OSKEmailContentItem *emailItem = [[OSKEmailContentItem alloc] init];
+    emailItem.body = text;
+    emailItem.subject=[NSString stringWithFormat:@"Новость от %@", blogTitle];
+    content.emailItem = emailItem;
+
+    OSKSMSContentItem *smsItem = [[OSKSMSContentItem alloc] init];
+    smsItem.body = text;
+    content.smsItem = smsItem;
+
+    OSKAirDropContentItem *airDrop = [[OSKAirDropContentItem alloc] init];
+    airDrop.items = @[text];
+    content.airDropItem = airDrop;
+
+    OSKReadLaterContentItem *readLater = [[OSKReadLaterContentItem alloc] init];
+    readLater.url = url;
+    content.readLaterItem = readLater;
+
+    OSKToDoListEntryContentItem *toDoList = [[OSKToDoListEntryContentItem alloc] init];
+    toDoList.title = [NSString stringWithFormat:@"Прочитать статью от %@", blogTitle];
+    toDoList.notes = text;
+    content.toDoListItem = toDoList;
+
+    OSKLinkBookmarkContentItem *linkBookmarking = [[OSKLinkBookmarkContentItem alloc] init];
+    linkBookmarking.url = url;
+    linkBookmarking.tags = @[appName];
+    linkBookmarking.markToRead = YES;
+    content.linkBookmarkItem = linkBookmarking;
+
+    OSKWebBrowserContentItem *browserItem = [[OSKWebBrowserContentItem alloc] init];
+    browserItem.url = url;
+    content.webBrowserItem = browserItem;
+    return content;
+}
+
+
 + (instancetype)contentFromText:(NSString *)text {
     NSParameterAssert(text.length);
     
