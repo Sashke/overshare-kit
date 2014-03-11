@@ -311,7 +311,8 @@ extern NSString * const OSKPresentationOption_PresentationEndingHandler;
 - (NSString *)localizedText_ShortenLinks;
 - (NSString *)localizedText_LinksShortened;
 - (NSString *)localizedText_Remove;
-
+- (NSString *)localizedText_AccountManagementViewController_Title;
+- (NSString *)localizedText_GenericAccountConnected;
 @end
 
 

@@ -90,13 +90,15 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
 
 @implementation OSKAccountManagementViewController
 
-- (instancetype)initWithIgnoredActivityClasses:(NSArray *)ignoredActivityClasses optionalBespokeActivityClasses:(NSArray *)arrayOfClasses {
+- (instancetype)initWithIgnoredActivityClasses:(NSArray *)ignoredActivityClasses optionalBespokeActivityClasses:(NSArray *)arrayOfClasses modal:(BOOL)modal {
     self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
-        
-        self.title = @"Sharing";
+        OSKPresentationManager *presentationManager = [OSKPresentationManager sharedInstance];
+        NSString *title=presentationManager.localizedText_AccountManagementViewController_Title;
+        self.title = title;
         NSString *doneTitle = [[OSKPresentationManager sharedInstance] localizedText_Done];
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:doneTitle style:UIBarButtonItemStyleDone target:self action:@selector(cancelButtonPressed:)];
+        if (modal)
+            self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:doneTitle style:UIBarButtonItemStyleDone target:self action:@selector(cancelButtonPressed:)];
 
         [self setupManagedAccountClasses:ignoredActivityClasses optionalBespokeActivityClasses:arrayOfClasses];
         [self setupToggleClasses:ignoredActivityClasses optionalBespokeActivityClasses:arrayOfClasses];

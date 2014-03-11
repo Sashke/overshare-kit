@@ -335,7 +335,7 @@
 }
 
 - (void)showAccountsManagement {
-    OSKAccountManagementViewController *manager = [[OSKAccountManagementViewController alloc] initWithIgnoredActivityClasses:nil optionalBespokeActivityClasses:nil];
+    OSKAccountManagementViewController *manager = [[OSKAccountManagementViewController alloc] initWithIgnoredActivityClasses:nil optionalBespokeActivityClasses:nil modal:YES];
     OSKNavigationController *navController = [[OSKNavigationController alloc] initWithRootViewController:manager];
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         [navController setModalPresentationStyle:UIModalPresentationFormSheet];

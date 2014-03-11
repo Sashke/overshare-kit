@@ -89,7 +89,9 @@ static UIBezierPath *clippingPath;
 
 - (void)updateGenericAccountDescription {
     if ([_genericActivity isAuthenticated]) {
-        [self.detailTextLabel setText:@"Connected"];
+        OSKPresentationManager *manager=[OSKPresentationManager sharedInstance];
+
+        [self.detailTextLabel setText:manager.localizedText_GenericAccountConnected];
     } else {
         [self.detailTextLabel setText:nil];
     }

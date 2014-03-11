@@ -1004,6 +1004,28 @@ willRepositionPopoverToRect:(inout CGRect *)rect
     return text;
 }
 
+- (NSString *)localizedText_AccountManagementViewController_Title{
+    NSString *text = nil;
+    if ([self.localizationDelegate respondsToSelector:@selector(osk_localizedText_AccountManagementViewController_Title)]) {
+        text = [self.localizationDelegate osk_localizedText_AccountManagementViewController_Title];
+    }
+    if (text == nil) {
+        text = @"Sharing";
+    }
+    return text;
+}
+
+- (NSString *)localizedText_GenericAccountConnected{
+    NSString *text = nil;
+    if ([self.localizationDelegate respondsToSelector:@selector(osk_localizedText_GenericAccountConnected)]) {
+        text = [self.localizationDelegate osk_localizedText_GenericAccountConnected];
+    }
+    if (text == nil) {
+        text = @"Connected";
+    }
+    return text;
+}
+
 #pragma mark - View Controllers
 
 - (UIViewController <OSKPurchasingViewController> *)purchasingViewControllerForActivity:(OSKActivity *)activity {

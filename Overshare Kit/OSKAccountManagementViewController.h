@@ -11,6 +11,7 @@
 @interface OSKAccountManagementViewController : UITableViewController
 
 - (instancetype)initWithIgnoredActivityClasses:(NSArray *)ignoredActivityClasses
-                optionalBespokeActivityClasses:(NSArray *)arrayOfClasses;
+                optionalBespokeActivityClasses:(NSArray *)arrayOfClasses
+                                         modal:(BOOL)modal;
 
 @end
