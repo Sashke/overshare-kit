@@ -60,7 +60,7 @@
 }
 
 +(NSString *)activityName {
-    return @"Вконтакте";
+    return @"ВКонтакте";
 }
 
 +(UIImage *)iconForIdiom:(UIUserInterfaceIdiom)idiom {
