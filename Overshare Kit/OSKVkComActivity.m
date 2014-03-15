@@ -136,11 +136,12 @@
     }
 }
 
-- (void)vkSdkUserDeniedAccess:(VKError *)authorizationError {
-    [[[UIAlertView alloc] initWithTitle:nil message:@"Access denied" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
-}
-
 #pragma mark - Authentication Timeout
+- (void)vkSdkUserDeniedAccess:(VKError *)authorizationError {
+   if (self.completionHandler){
+       self.completionHandler(NO, nil);
+   }
+}
 
 - (void)startAuthenticationTimeoutTimer {
     NSTimer *timer = [[NSTimer alloc] initWithFireDate:[NSDate dateWithTimeIntervalSinceNow:60*2]
