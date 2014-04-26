@@ -121,6 +121,23 @@
 		8895C35018A3BA78000B7F28 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895C34F18A3BA78000B7F28 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		71866A8A190C2E57008FD7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71866A6D190C2E56008FD7C5 /* sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3C7542D182133CC00964716;
+			remoteInfo = VKSdk;
+		};
+		71866A8C190C2E57008FD7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71866A6D190C2E56008FD7C5 /* sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3BACC401865905B003158DA;
+			remoteInfo = VKSdkResources;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7FEE7668181ED867000F684A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -145,6 +162,104 @@
 /* Begin PBXFileReference section */
 		2EA7594118E5831E00078A1D /* OSKSaveToCameraRollActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKSaveToCameraRollActivity.h; sourceTree = "<group>"; };
 		2EA7594218E5831E00078A1D /* OSKSaveToCameraRollActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKSaveToCameraRollActivity.m; sourceTree = "<group>"; };
+		71866A09190C2E56008FD7C5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		71866A0A190C2E56008FD7C5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		71866A0B190C2E56008FD7C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		71866A0F190C2E56008FD7C5 /* VKApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiObject.h; sourceTree = "<group>"; };
+		71866A10190C2E56008FD7C5 /* VKApiObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiObject.m; sourceTree = "<group>"; };
+		71866A11190C2E56008FD7C5 /* VKApiObjectArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiObjectArray.h; sourceTree = "<group>"; };
+		71866A12190C2E56008FD7C5 /* VKApiObjectArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiObjectArray.m; sourceTree = "<group>"; };
+		71866A13190C2E56008FD7C5 /* VKAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKAudio.h; sourceTree = "<group>"; };
+		71866A14190C2E56008FD7C5 /* VKAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKAudio.m; sourceTree = "<group>"; };
+		71866A15190C2E56008FD7C5 /* VKCounters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKCounters.h; sourceTree = "<group>"; };
+		71866A16190C2E56008FD7C5 /* VKCounters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKCounters.m; sourceTree = "<group>"; };
+		71866A17190C2E56008FD7C5 /* VKLikes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKLikes.h; sourceTree = "<group>"; };
+		71866A18190C2E56008FD7C5 /* VKLikes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKLikes.m; sourceTree = "<group>"; };
+		71866A19190C2E56008FD7C5 /* VKPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPhoto.h; sourceTree = "<group>"; };
+		71866A1A190C2E56008FD7C5 /* VKPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPhoto.m; sourceTree = "<group>"; };
+		71866A1B190C2E56008FD7C5 /* VKRelative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKRelative.h; sourceTree = "<group>"; };
+		71866A1C190C2E56008FD7C5 /* VKRelative.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKRelative.m; sourceTree = "<group>"; };
+		71866A1D190C2E56008FD7C5 /* VKSchool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKSchool.h; sourceTree = "<group>"; };
+		71866A1E190C2E56008FD7C5 /* VKSchool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKSchool.m; sourceTree = "<group>"; };
+		71866A1F190C2E56008FD7C5 /* VKUniversity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKUniversity.h; sourceTree = "<group>"; };
+		71866A20190C2E56008FD7C5 /* VKUniversity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKUniversity.m; sourceTree = "<group>"; };
+		71866A21190C2E56008FD7C5 /* VKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKUser.h; sourceTree = "<group>"; };
+		71866A22190C2E56008FD7C5 /* VKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKUser.m; sourceTree = "<group>"; };
+		71866A23190C2E56008FD7C5 /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		71866A24190C2E56008FD7C5 /* NSData+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		71866A25190C2E56008FD7C5 /* NSError+VKError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+VKError.h"; sourceTree = "<group>"; };
+		71866A26190C2E56008FD7C5 /* NSError+VKError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+VKError.m"; sourceTree = "<group>"; };
+		71866A27190C2E56008FD7C5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		71866A28190C2E56008FD7C5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		71866A29190C2E56008FD7C5 /* OrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		71866A2A190C2E56008FD7C5 /* OrderedDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		71866A2B190C2E56008FD7C5 /* VKAccessToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKAccessToken.h; sourceTree = "<group>"; };
+		71866A2C190C2E56008FD7C5 /* VKAccessToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKAccessToken.m; sourceTree = "<group>"; };
+		71866A2D190C2E56008FD7C5 /* VKApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApi.h; sourceTree = "<group>"; };
+		71866A2E190C2E56008FD7C5 /* VKApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApi.m; sourceTree = "<group>"; };
+		71866A2F190C2E56008FD7C5 /* VKApiBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiBase.h; sourceTree = "<group>"; };
+		71866A30190C2E56008FD7C5 /* VKApiBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiBase.m; sourceTree = "<group>"; };
+		71866A31190C2E56008FD7C5 /* VKApiCaptcha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiCaptcha.h; sourceTree = "<group>"; };
+		71866A32190C2E56008FD7C5 /* VKApiCaptcha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiCaptcha.m; sourceTree = "<group>"; };
+		71866A33190C2E56008FD7C5 /* VKApiConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiConst.h; sourceTree = "<group>"; };
+		71866A34190C2E56008FD7C5 /* VKApiFriends.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiFriends.h; sourceTree = "<group>"; };
+		71866A35190C2E56008FD7C5 /* VKApiFriends.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiFriends.m; sourceTree = "<group>"; };
+		71866A36190C2E56008FD7C5 /* VKApiModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiModels.h; sourceTree = "<group>"; };
+		71866A37190C2E56008FD7C5 /* VKApiPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiPhotos.h; sourceTree = "<group>"; };
+		71866A38190C2E56008FD7C5 /* VKApiPhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiPhotos.m; sourceTree = "<group>"; };
+		71866A39190C2E56008FD7C5 /* VKApiUsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiUsers.h; sourceTree = "<group>"; };
+		71866A3A190C2E56008FD7C5 /* VKApiUsers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiUsers.m; sourceTree = "<group>"; };
+		71866A3B190C2E56008FD7C5 /* VKApiWall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKApiWall.h; sourceTree = "<group>"; };
+		71866A3C190C2E56008FD7C5 /* VKApiWall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKApiWall.m; sourceTree = "<group>"; };
+		71866A3D190C2E56008FD7C5 /* VKAuthorizeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKAuthorizeController.h; sourceTree = "<group>"; };
+		71866A3E190C2E56008FD7C5 /* VKAuthorizeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKAuthorizeController.m; sourceTree = "<group>"; };
+		71866A3F190C2E56008FD7C5 /* VKBatchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKBatchRequest.h; sourceTree = "<group>"; };
+		71866A40190C2E56008FD7C5 /* VKBatchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBatchRequest.m; sourceTree = "<group>"; };
+		71866A41190C2E56008FD7C5 /* VKBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKBundle.h; sourceTree = "<group>"; };
+		71866A42190C2E56008FD7C5 /* VKBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBundle.m; sourceTree = "<group>"; };
+		71866A43190C2E56008FD7C5 /* VKCaptchaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKCaptchaView.h; sourceTree = "<group>"; };
+		71866A44190C2E56008FD7C5 /* VKCaptchaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKCaptchaView.m; sourceTree = "<group>"; };
+		71866A45190C2E56008FD7C5 /* VKCaptchaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKCaptchaViewController.h; sourceTree = "<group>"; };
+		71866A46190C2E56008FD7C5 /* VKCaptchaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKCaptchaViewController.m; sourceTree = "<group>"; };
+		71866A47190C2E56008FD7C5 /* VKError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKError.h; sourceTree = "<group>"; };
+		71866A48190C2E56008FD7C5 /* VKError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKError.m; sourceTree = "<group>"; };
+		71866A49190C2E56008FD7C5 /* VKHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKHTTPClient.h; sourceTree = "<group>"; };
+		71866A4A190C2E56008FD7C5 /* VKHTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKHTTPClient.m; sourceTree = "<group>"; };
+		71866A4B190C2E56008FD7C5 /* VKHTTPOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKHTTPOperation.h; sourceTree = "<group>"; };
+		71866A4C190C2E56008FD7C5 /* VKHTTPOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKHTTPOperation.m; sourceTree = "<group>"; };
+		71866A4D190C2E56008FD7C5 /* VKImageParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKImageParameters.h; sourceTree = "<group>"; };
+		71866A4E190C2E56008FD7C5 /* VKImageParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKImageParameters.m; sourceTree = "<group>"; };
+		71866A4F190C2E56008FD7C5 /* VKObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKObject.h; sourceTree = "<group>"; };
+		71866A50190C2E56008FD7C5 /* VKObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKObject.m; sourceTree = "<group>"; };
+		71866A51190C2E56008FD7C5 /* VKOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKOperation.h; sourceTree = "<group>"; };
+		71866A52190C2E56008FD7C5 /* VKOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKOperation.m; sourceTree = "<group>"; };
+		71866A53190C2E56008FD7C5 /* VKPermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPermissions.h; sourceTree = "<group>"; };
+		71866A54190C2E56008FD7C5 /* VKPermissions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPermissions.m; sourceTree = "<group>"; };
+		71866A55190C2E56008FD7C5 /* VKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKRequest.h; sourceTree = "<group>"; };
+		71866A56190C2E56008FD7C5 /* VKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKRequest.m; sourceTree = "<group>"; };
+		71866A57190C2E56008FD7C5 /* VKResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKResponse.h; sourceTree = "<group>"; };
+		71866A58190C2E56008FD7C5 /* VKResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKResponse.m; sourceTree = "<group>"; };
+		71866A59190C2E56008FD7C5 /* VKSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKSdk.h; sourceTree = "<group>"; };
+		71866A5A190C2E56008FD7C5 /* VKSdk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKSdk.m; sourceTree = "<group>"; };
+		71866A5B190C2E56008FD7C5 /* VKSdkVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKSdkVersion.h; sourceTree = "<group>"; };
+		71866A5C190C2E56008FD7C5 /* VKUploadPhotoBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKUploadPhotoBase.h; sourceTree = "<group>"; };
+		71866A5D190C2E56008FD7C5 /* VKUploadPhotoBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKUploadPhotoBase.m; sourceTree = "<group>"; };
+		71866A5E190C2E56008FD7C5 /* VKUploadPhotoRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKUploadPhotoRequest.h; sourceTree = "<group>"; };
+		71866A5F190C2E56008FD7C5 /* VKUploadPhotoRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKUploadPhotoRequest.m; sourceTree = "<group>"; };
+		71866A60190C2E56008FD7C5 /* VKUploadWallPhotoRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKUploadWallPhotoRequest.h; sourceTree = "<group>"; };
+		71866A61190C2E56008FD7C5 /* VKUploadWallPhotoRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKUploadWallPhotoRequest.m; sourceTree = "<group>"; };
+		71866A62190C2E56008FD7C5 /* VKUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKUtil.h; sourceTree = "<group>"; };
+		71866A63190C2E56008FD7C5 /* VKUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKUtil.m; sourceTree = "<group>"; };
+		71866A66190C2E56008FD7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71866A67190C2E56008FD7C5 /* ic_vk_logo_nb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_vk_logo_nb.png; sourceTree = "<group>"; };
+		71866A68190C2E56008FD7C5 /* ic_vk_logo_nb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_vk_logo_nb@2x.png"; sourceTree = "<group>"; };
+		71866A69190C2E56008FD7C5 /* SDK resources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDK resources-Info.plist"; sourceTree = "<group>"; };
+		71866A6A190C2E56008FD7C5 /* SDK resources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDK resources-Prefix.pch"; sourceTree = "<group>"; };
+		71866A6B190C2E56008FD7C5 /* vk_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vk_activity.png; sourceTree = "<group>"; };
+		71866A6C190C2E56008FD7C5 /* vk_activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vk_activity@2x.png"; sourceTree = "<group>"; };
+		71866A6D190C2E56008FD7C5 /* sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = sdk.xcodeproj; sourceTree = "<group>"; };
+		71866A70190C2E56008FD7C5 /* VK-ios-sdk.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "VK-ios-sdk.podspec"; sourceTree = "<group>"; };
+		71866A71190C2E56008FD7C5 /* VKSdkResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VKSdkResources.bundle; sourceTree = "<group>"; };
 		7F04946A188AFE5400BE7C4E /* NSString+OSKEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OSKEmoji.h"; sourceTree = "<group>"; };
 		7F04946B188AFE5400BE7C4E /* NSString+OSKEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OSKEmoji.m"; sourceTree = "<group>"; };
 		7F19F901181F228200E5EA52 /* osk-iap-badge-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-iap-badge-60@2x.png"; sourceTree = "<group>"; };
@@ -523,9 +638,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71866A08190C2E56008FD7C5 /* vk-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				71866A09190C2E56008FD7C5 /* .gitignore */,
+				71866A0A190C2E56008FD7C5 /* LICENSE */,
+				71866A0B190C2E56008FD7C5 /* README.md */,
+				71866A0C190C2E56008FD7C5 /* sdk */,
+				71866A70190C2E56008FD7C5 /* VK-ios-sdk.podspec */,
+				71866A71190C2E56008FD7C5 /* VKSdkResources.bundle */,
+			);
+			name = "vk-ios-sdk";
+			path = "../../../Dependencies/vk-ios-sdk";
+			sourceTree = "<group>";
+		};
+		71866A0C190C2E56008FD7C5 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				71866A0D190C2E56008FD7C5 /* sdk */,
+				71866A64190C2E56008FD7C5 /* SDK resources */,
+				71866A6D190C2E56008FD7C5 /* sdk.xcodeproj */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		71866A0D190C2E56008FD7C5 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				71866A0E190C2E56008FD7C5 /* models */,
+				71866A23190C2E56008FD7C5 /* NSData+MD5.h */,
+				71866A24190C2E56008FD7C5 /* NSData+MD5.m */,
+				71866A25190C2E56008FD7C5 /* NSError+VKError.h */,
+				71866A26190C2E56008FD7C5 /* NSError+VKError.m */,
+				71866A27190C2E56008FD7C5 /* NSString+MD5.h */,
+				71866A28190C2E56008FD7C5 /* NSString+MD5.m */,
+				71866A29190C2E56008FD7C5 /* OrderedDictionary.h */,
+				71866A2A190C2E56008FD7C5 /* OrderedDictionary.m */,
+				71866A2B190C2E56008FD7C5 /* VKAccessToken.h */,
+				71866A2C190C2E56008FD7C5 /* VKAccessToken.m */,
+				71866A2D190C2E56008FD7C5 /* VKApi.h */,
+				71866A2E190C2E56008FD7C5 /* VKApi.m */,
+				71866A2F190C2E56008FD7C5 /* VKApiBase.h */,
+				71866A30190C2E56008FD7C5 /* VKApiBase.m */,
+				71866A31190C2E56008FD7C5 /* VKApiCaptcha.h */,
+				71866A32190C2E56008FD7C5 /* VKApiCaptcha.m */,
+				71866A33190C2E56008FD7C5 /* VKApiConst.h */,
+				71866A34190C2E56008FD7C5 /* VKApiFriends.h */,
+				71866A35190C2E56008FD7C5 /* VKApiFriends.m */,
+				71866A36190C2E56008FD7C5 /* VKApiModels.h */,
+				71866A37190C2E56008FD7C5 /* VKApiPhotos.h */,
+				71866A38190C2E56008FD7C5 /* VKApiPhotos.m */,
+				71866A39190C2E56008FD7C5 /* VKApiUsers.h */,
+				71866A3A190C2E56008FD7C5 /* VKApiUsers.m */,
+				71866A3B190C2E56008FD7C5 /* VKApiWall.h */,
+				71866A3C190C2E56008FD7C5 /* VKApiWall.m */,
+				71866A3D190C2E56008FD7C5 /* VKAuthorizeController.h */,
+				71866A3E190C2E56008FD7C5 /* VKAuthorizeController.m */,
+				71866A3F190C2E56008FD7C5 /* VKBatchRequest.h */,
+				71866A40190C2E56008FD7C5 /* VKBatchRequest.m */,
+				71866A41190C2E56008FD7C5 /* VKBundle.h */,
+				71866A42190C2E56008FD7C5 /* VKBundle.m */,
+				71866A43190C2E56008FD7C5 /* VKCaptchaView.h */,
+				71866A44190C2E56008FD7C5 /* VKCaptchaView.m */,
+				71866A45190C2E56008FD7C5 /* VKCaptchaViewController.h */,
+				71866A46190C2E56008FD7C5 /* VKCaptchaViewController.m */,
+				71866A47190C2E56008FD7C5 /* VKError.h */,
+				71866A48190C2E56008FD7C5 /* VKError.m */,
+				71866A49190C2E56008FD7C5 /* VKHTTPClient.h */,
+				71866A4A190C2E56008FD7C5 /* VKHTTPClient.m */,
+				71866A4B190C2E56008FD7C5 /* VKHTTPOperation.h */,
+				71866A4C190C2E56008FD7C5 /* VKHTTPOperation.m */,
+				71866A4D190C2E56008FD7C5 /* VKImageParameters.h */,
+				71866A4E190C2E56008FD7C5 /* VKImageParameters.m */,
+				71866A4F190C2E56008FD7C5 /* VKObject.h */,
+				71866A50190C2E56008FD7C5 /* VKObject.m */,
+				71866A51190C2E56008FD7C5 /* VKOperation.h */,
+				71866A52190C2E56008FD7C5 /* VKOperation.m */,
+				71866A53190C2E56008FD7C5 /* VKPermissions.h */,
+				71866A54190C2E56008FD7C5 /* VKPermissions.m */,
+				71866A55190C2E56008FD7C5 /* VKRequest.h */,
+				71866A56190C2E56008FD7C5 /* VKRequest.m */,
+				71866A57190C2E56008FD7C5 /* VKResponse.h */,
+				71866A58190C2E56008FD7C5 /* VKResponse.m */,
+				71866A59190C2E56008FD7C5 /* VKSdk.h */,
+				71866A5A190C2E56008FD7C5 /* VKSdk.m */,
+				71866A5B190C2E56008FD7C5 /* VKSdkVersion.h */,
+				71866A5C190C2E56008FD7C5 /* VKUploadPhotoBase.h */,
+				71866A5D190C2E56008FD7C5 /* VKUploadPhotoBase.m */,
+				71866A5E190C2E56008FD7C5 /* VKUploadPhotoRequest.h */,
+				71866A5F190C2E56008FD7C5 /* VKUploadPhotoRequest.m */,
+				71866A60190C2E56008FD7C5 /* VKUploadWallPhotoRequest.h */,
+				71866A61190C2E56008FD7C5 /* VKUploadWallPhotoRequest.m */,
+				71866A62190C2E56008FD7C5 /* VKUtil.h */,
+				71866A63190C2E56008FD7C5 /* VKUtil.m */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		71866A0E190C2E56008FD7C5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				71866A0F190C2E56008FD7C5 /* VKApiObject.h */,
+				71866A10190C2E56008FD7C5 /* VKApiObject.m */,
+				71866A11190C2E56008FD7C5 /* VKApiObjectArray.h */,
+				71866A12190C2E56008FD7C5 /* VKApiObjectArray.m */,
+				71866A13190C2E56008FD7C5 /* VKAudio.h */,
+				71866A14190C2E56008FD7C5 /* VKAudio.m */,
+				71866A15190C2E56008FD7C5 /* VKCounters.h */,
+				71866A16190C2E56008FD7C5 /* VKCounters.m */,
+				71866A17190C2E56008FD7C5 /* VKLikes.h */,
+				71866A18190C2E56008FD7C5 /* VKLikes.m */,
+				71866A19190C2E56008FD7C5 /* VKPhoto.h */,
+				71866A1A190C2E56008FD7C5 /* VKPhoto.m */,
+				71866A1B190C2E56008FD7C5 /* VKRelative.h */,
+				71866A1C190C2E56008FD7C5 /* VKRelative.m */,
+				71866A1D190C2E56008FD7C5 /* VKSchool.h */,
+				71866A1E190C2E56008FD7C5 /* VKSchool.m */,
+				71866A1F190C2E56008FD7C5 /* VKUniversity.h */,
+				71866A20190C2E56008FD7C5 /* VKUniversity.m */,
+				71866A21190C2E56008FD7C5 /* VKUser.h */,
+				71866A22190C2E56008FD7C5 /* VKUser.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		71866A64190C2E56008FD7C5 /* SDK resources */ = {
+			isa = PBXGroup;
+			children = (
+				71866A65190C2E56008FD7C5 /* InfoPlist.strings */,
+				71866A67190C2E56008FD7C5 /* ic_vk_logo_nb.png */,
+				71866A68190C2E56008FD7C5 /* ic_vk_logo_nb@2x.png */,
+				71866A69190C2E56008FD7C5 /* SDK resources-Info.plist */,
+				71866A6A190C2E56008FD7C5 /* SDK resources-Prefix.pch */,
+				71866A6B190C2E56008FD7C5 /* vk_activity.png */,
+				71866A6C190C2E56008FD7C5 /* vk_activity@2x.png */,
+			);
+			path = "SDK resources";
+			sourceTree = "<group>";
+		};
+		71866A6E190C2E56008FD7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71866A8B190C2E57008FD7C5 /* libVKSdk.a */,
+				71866A8D190C2E57008FD7C5 /* VKSdkResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7F6711F8181EDF870006E037 /* Third-Party Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				71866A08190C2E56008FD7C5 /* vk-ios-sdk */,
 				7F6711F9181EDF900006E037 /* ADNLogin */,
 				7F6711FA181EDF960006E037 /* Pocket */,
 			);
@@ -998,12 +1261,35 @@
 			mainGroup = 7FEE7661181ED867000F684A;
 			productRefGroup = 7FEE766B181ED867000F684A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 71866A6E190C2E56008FD7C5 /* Products */;
+					ProjectRef = 71866A6D190C2E56008FD7C5 /* sdk.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7FEE7669181ED867000F684A /* OvershareKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		71866A8B190C2E57008FD7C5 /* libVKSdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVKSdk.a;
+			remoteRef = 71866A8A190C2E57008FD7C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		71866A8D190C2E57008FD7C5 /* VKSdkResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VKSdkResources.bundle;
+			remoteRef = 71866A8C190C2E57008FD7C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FEE7666181ED867000F684A /* Sources */ = {
@@ -1106,6 +1392,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71866A65190C2E56008FD7C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71866A66190C2E56008FD7C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7FEE768B181ED867000F684A /* Debug */ = {
