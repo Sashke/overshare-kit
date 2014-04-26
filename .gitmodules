@@ -6,12 +6,6 @@
 	path = Dependencies/ADNLogin-SDK
 	url = https://github.com/appdotnet/ADNLogin-SDK-iOS.git
 	
-[submodule "vk-ios-sdk"]
+[submodule "Dependencies/vk-ios-sdk"]
 	path = Dependencies/vk-ios-sdk
-	url = https://github.com/VKCOM/vk-ios-sdk.git
-
-
-
-[submodule "Dependencies/vk-is-sdk"]
-	path = Dependencies/vk-is-sdk
 	url = https://github.com/VKCOM/vk-ios-sdk.git
