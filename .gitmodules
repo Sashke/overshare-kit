@@ -12,3 +12,6 @@
 
 
 
+[submodule "Dependencies/vk-is-sdk"]
+	path = Dependencies/vk-is-sdk
+	url = https://github.com/VKCOM/vk-ios-sdk.git
