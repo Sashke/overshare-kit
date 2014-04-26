@@ -178,8 +178,8 @@
     return 40;
 }
 
-- (OSKMicroblogSyntaxHighlightingStyle)syntaxHighlightingStyle {
-    return OSKMicroblogSyntaxHighlightingStyle_LinksOnly;
+- (OSKSyntaxHighlighting)syntaxHighlighting {
+    return OSKSyntaxHighlighting_Links;
 }
 
 - (NSInteger)maximumUsernameLength {

@@ -31,7 +31,8 @@
                 VKPhoto *photoInfo=[(VKPhotoArray *)resp.parsedModel objectAtIndex:0];
                 [photosAttachments addObject:[NSString stringWithFormat:@"photo%@_%@",photoInfo.owner_id, photoInfo.id]];
             }
-            [photosAttachments addObject:contentItem.canonicalURL];
+            if (contentItem.canonicalURL)
+                [photosAttachments addObject:contentItem.canonicalURL];
             VKRequest *post=[[VKApi wall] post:@{VK_API_MESSAGE : contentItem.text,
                     VK_API_ATTACHMENTS : [photosAttachments componentsJoinedByString:@","],
                     VK_API_FRIENDS_ONLY : @(0),
@@ -50,12 +51,17 @@
                 completion(NO, error);
         }];
     }
-    else
-    {
-        VKRequest *post=[[VKApi wall] post:@{VK_API_MESSAGE : contentItem.text,
-                VK_API_ATTACHMENTS: contentItem.canonicalURL,
-                VK_API_FRIENDS_ONLY : @(0),
-                VK_API_OWNER_ID : [NSString stringWithFormat:@"%d",userId]}];
+    else{
+        VKRequest *post;
+        if (contentItem.canonicalURL)
+            post=[[VKApi wall] post:@{VK_API_MESSAGE : contentItem.text,
+                    VK_API_ATTACHMENTS: contentItem.canonicalURL,
+                    VK_API_FRIENDS_ONLY : @(0),
+                    VK_API_OWNER_ID : [NSString stringWithFormat:@"%d",userId]}];
+        else
+            post=[[VKApi wall] post:@{VK_API_MESSAGE : contentItem.text,
+                    VK_API_FRIENDS_ONLY : @(0),
+                    VK_API_OWNER_ID : [NSString stringWithFormat:@"%d",userId]}];
         [post executeWithResultBlock:^(VKResponse *response) {
             if (completion)
                 completion(YES, nil);
@@ -67,7 +73,4 @@
         }];
     }
 }
-
-
-
 @end

@@ -291,7 +291,7 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
         if ([activityClass authenticationMethod] == OSKAuthenticationMethod_ManagedAccounts) {
             OSKAccountChooserViewController *chooser = [[OSKAccountChooserViewController alloc] initForManagingAccountsOfActivityClass:activityClass];
             [self.navigationController pushViewController:chooser animated:YES];
-        } else {
+        } else{
             OSKPocketAccountViewController *pocketVC = [[OSKPocketAccountViewController alloc] initWithStyle:UITableViewStyleGrouped];
             [self.navigationController pushViewController:pocketVC animated:YES];
         }
