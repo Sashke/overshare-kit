@@ -49,6 +49,7 @@
     
     OSKTextEditingContentItem *textEditing = [[OSKTextEditingContentItem alloc] init];
     textEditing.text = text;
+    textEditing.title=content.title;
     content.textEditingItem = textEditing;
     
     return content;
@@ -115,6 +116,7 @@
     
     OSKTextEditingContentItem *textEditing = [[OSKTextEditingContentItem alloc] init];
     textEditing.text = url.absoluteString;
+    textEditing.title=content.title;
     content.textEditingItem = textEditing;
     
     return content;
@@ -223,6 +225,8 @@
     
     OSKTextEditingContentItem *textEditing = [[OSKTextEditingContentItem alloc] init];
     textEditing.text = emailItem.body;
+    textEditing.title=content.title;
+    textEditing.images=images;
     content.textEditingItem = textEditing;
     
     return content;

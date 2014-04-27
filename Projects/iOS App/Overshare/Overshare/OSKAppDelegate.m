@@ -8,7 +8,7 @@
 
 #import <GooglePlus/GooglePlus.h>
 #import "OSKAppDelegate.h"
-
+#import "EvernoteSDK.h"
 #import "OSKADNLoginManager.h"
 #import "PocketAPI.h"
 
@@ -19,9 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-#warning  You must replace this key with your own app's key!
+#warning  You must replace this keys with your own app's key!
     [[PocketAPI sharedAPI] setConsumerKey:@"19568-eab36ebc89e751893a754475"];
-    
+    NSString *evernoteHost=BootstrapServerBaseURLStringSandbox;
+    NSString *consumerKey=@"sktje-4663";
+    NSString *consumerSecret=@"94400d32d00b5bcf";
+    [EvernoteSession setSharedSessionHost:evernoteHost
+                              consumerKey:consumerKey
+                           consumerSecret:consumerSecret];
     UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self setWindow:window];
     
@@ -54,6 +59,7 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [[EvernoteSession sharedSession] handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -73,9 +79,10 @@
     else if ([GPPURLHandler handleURL:url sourceApplication:sourceApplication annotation:annotation]) {
         success = YES;
     }
-    else {
-        [VKSdk processOpenURL:url fromApplication:sourceApplication];
-        NSLog(@"privet");
+    else if([VKSdk processOpenURL:url fromApplication:sourceApplication]){
+        success = YES;
+    }else if ([[NSString stringWithFormat:@"en-%@", [[EvernoteSession sharedSession] consumerKey]] isEqualToString:[url scheme]]) {
+        success = [[EvernoteSession sharedSession] canHandleOpenURL:url];
     }
     return success;
 }

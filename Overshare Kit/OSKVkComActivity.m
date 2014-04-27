@@ -126,7 +126,7 @@
     [self authenticate:self.completionHandler];
 }
 
-- (void)vkSdkDidReceiveNewToken:(VKAccessToken *)newToken {
+- (void)vkSdkReceivedNewToken:(VKAccessToken *)newToken{
     __weak OSKVkComActivity *weakSelf = self;
     if (self.completionHandler && !weakSelf.authenticationTimedOut) {
         [weakSelf cancelAuthenticationTimeoutTimer];

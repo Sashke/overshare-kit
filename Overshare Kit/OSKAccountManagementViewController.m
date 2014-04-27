@@ -12,7 +12,6 @@
 #import "OSKActivity.h"
 #import "OSKAccountChooserViewController.h"
 #import "UIColor+OSKUtility.h"
-#import "OSKPocketAccountViewController.h"
 #import "OSKAccountTypeCell.h"
 #import "OSKActivityToggleCell.h"
 
@@ -37,6 +36,8 @@
 #import "OSKTwitterActivity.h"
 #import "OSKGooglePlusActivity.h"
 #import "OSKVkComActivity.h"
+#import "OSKEvernoteActivity.h"
+#import "OSKGenericAccountViewController.h"
 
 @interface OSKAccountManagementHeaderView : UITableViewHeaderFooterView
 
@@ -115,6 +116,8 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
     [defaultClasses addObject:[OSKPocketActivity class]];
     [defaultClasses addObject:[OSKReadabilityActivity class]];
     [defaultClasses addObject:[OSKPinboardActivity class]];
+    [defaultClasses addObject:[OSKVkComActivity class]];
+    [defaultClasses addObject:[OSKEvernoteActivity class]];
     
     for (Class ignoredClass in ignoredActivityClasses) {
         if ([defaultClasses containsObject:ignoredClass]) {
@@ -159,6 +162,7 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
     [defaultClasses addObject:[OSKFacebookActivity class]];
     [defaultClasses addObject:[OSKGooglePlusActivity class]];
     [defaultClasses addObject:[OSKVkComActivity class]];
+    [defaultClasses addObject:[OSKEvernoteActivity class]];
 
     if ([OSK1PasswordSearchActivity isAvailable]) {
         [defaultClasses addObject:[OSK1PasswordSearchActivity class]];
@@ -292,8 +296,8 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
             OSKAccountChooserViewController *chooser = [[OSKAccountChooserViewController alloc] initForManagingAccountsOfActivityClass:activityClass];
             [self.navigationController pushViewController:chooser animated:YES];
         } else{
-            OSKPocketAccountViewController *pocketVC = [[OSKPocketAccountViewController alloc] initWithStyle:UITableViewStyleGrouped];
-            [self.navigationController pushViewController:pocketVC animated:YES];
+            OSKGenericAccountViewController *genericVC = [[OSKGenericAccountViewController alloc] initWithActivityClass:activityClass];
+            [self.navigationController pushViewController:genericVC animated:YES];
         }
     }
 }

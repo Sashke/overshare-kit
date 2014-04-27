@@ -39,6 +39,7 @@
 #import "OSKThingsActivity.h"
 #import "OSKTwitterActivity.h"
 #import "OSKVkComActivity.h"
+#import "OSKEvernoteActivity.h"
 
 #if DEBUG == 1
 // DEVELOPMENT KEYS ONLY, YOUR APP SHOULD SUPPLY YOUR APP CREDENTIALS VIA THE CUSTOMIZATIONS DELEGATE.
@@ -522,7 +523,15 @@ static NSString * OSKActivitiesManagerPersistentExclusionsKey = @"OSKActivitiesM
                                                excludedTypes:excludedActivityTypes
                                            requireOperations:requireOperations
                                                         item:item];
+
     if (drafts) { [activities addObject:drafts]; }
+
+    OSKEvernoteActivity *evernote = [self validActivityForType:[OSKEvernoteActivity activityType]
+                                                     class:[OSKEvernoteActivity class]
+                                             excludedTypes:excludedActivityTypes
+                                         requireOperations:requireOperations
+                                                      item:item];
+    if (evernote) { [activities addObject:evernote]; }
     
     return activities;
 }

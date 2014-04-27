@@ -16,7 +16,6 @@
 		7F55A30F18425C6C004A3BCC /* OSKSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F55A30B18425C6C004A3BCC /* OSKSessionController.m */; };
 		7F75BEFE1821539700D3681E /* OSKAccountManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75BEF71821539700D3681E /* OSKAccountManagementViewController.m */; };
 		7F75BEFF1821539700D3681E /* OSKFacebookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75BEF91821539700D3681E /* OSKFacebookUtility.m */; };
-		7F75BF001821539700D3681E /* OSKPocketAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75BEFB1821539700D3681E /* OSKPocketAccountViewController.m */; };
 		7F75BF011821539700D3681E /* UIImage+OSKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75BEFD1821539700D3681E /* UIImage+OSKUtilities.m */; };
 		7F75BF55182158E500D3681E /* ADNLogin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F75BF411821588F00D3681E /* ADNLogin.h */; };
 		7F75BF56182158E500D3681E /* ADNPassportLaunchView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F75BF431821588F00D3681E /* ADNPassportLaunchView.h */; };
@@ -260,6 +259,147 @@
 		71866A6D190C2E56008FD7C5 /* sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = sdk.xcodeproj; sourceTree = "<group>"; };
 		71866A70190C2E56008FD7C5 /* VK-ios-sdk.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "VK-ios-sdk.podspec"; sourceTree = "<group>"; };
 		71866A71190C2E56008FD7C5 /* VKSdkResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VKSdkResources.bundle; sourceTree = "<group>"; };
+		71866FCE190C445A008FD7C5 /* ENAFURLConnectionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENAFURLConnectionOperation.h; sourceTree = "<group>"; };
+		71866FCF190C445A008FD7C5 /* ENAFURLConnectionOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENAFURLConnectionOperation.m; sourceTree = "<group>"; };
+		71866FD1190C445A008FD7C5 /* ENGCOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENGCOAuth.h; sourceTree = "<group>"; };
+		71866FD2190C445A008FD7C5 /* ENGCOAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENGCOAuth.m; sourceTree = "<group>"; };
+		71866FD3190C445A008FD7C5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		71866FD4190C445A008FD7C5 /* NSData+ENBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+ENBase64.h"; sourceTree = "<group>"; };
+		71866FD5190C445A008FD7C5 /* NSData+ENBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+ENBase64.m"; sourceTree = "<group>"; };
+		71866FD7190C445A008FD7C5 /* KSForwardingWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSForwardingWriter.h; sourceTree = "<group>"; };
+		71866FD8190C445A008FD7C5 /* KSForwardingWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSForwardingWriter.m; sourceTree = "<group>"; };
+		71866FD9190C445A008FD7C5 /* KSHTMLWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSHTMLWriter.h; sourceTree = "<group>"; };
+		71866FDA190C445A008FD7C5 /* KSHTMLWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSHTMLWriter.m; sourceTree = "<group>"; };
+		71866FDB190C445A008FD7C5 /* KSWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSWriter.h; sourceTree = "<group>"; };
+		71866FDC190C445A008FD7C5 /* KSWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSWriter.m; sourceTree = "<group>"; };
+		71866FDD190C445A008FD7C5 /* KSXMLAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSXMLAttributes.h; sourceTree = "<group>"; };
+		71866FDE190C445A008FD7C5 /* KSXMLAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSXMLAttributes.m; sourceTree = "<group>"; };
+		71866FDF190C445A008FD7C5 /* KSXMLWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSXMLWriter.h; sourceTree = "<group>"; };
+		71866FE0190C445A008FD7C5 /* KSXMLWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSXMLWriter.m; sourceTree = "<group>"; };
+		71866FE1190C445A008FD7C5 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		71866FE2190C445A008FD7C5 /* NSString+XMLAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLAdditions.h"; sourceTree = "<group>"; };
+		71866FE3190C445A008FD7C5 /* NSString+XMLAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLAdditions.m"; sourceTree = "<group>"; };
+		71866FE5190C445A008FD7C5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		71866FE6190C445A008FD7C5 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		71866FE7190C445A008FD7C5 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		71866FE9190C445A008FD7C5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		71866FEA190C445A008FD7C5 /* SSKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		71866FEB190C445A008FD7C5 /* SSKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		71866FED190C445A008FD7C5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		71866FEF190C445A008FD7C5 /* TBinaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		71866FF0190C445A008FD7C5 /* TBinaryProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		71866FF1190C445A008FD7C5 /* TProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		71866FF2190C445A008FD7C5 /* TProtocolException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		71866FF3190C445A008FD7C5 /* TProtocolException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		71866FF4190C445A008FD7C5 /* TProtocolFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		71866FF5190C445A008FD7C5 /* TProtocolUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		71866FF6190C445A008FD7C5 /* TProtocolUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		71866FF7190C445A008FD7C5 /* TApplicationException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		71866FF8190C445A008FD7C5 /* TApplicationException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		71866FF9190C445A008FD7C5 /* TException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		71866FFA190C445A008FD7C5 /* TException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		71866FFB190C445A008FD7C5 /* Thrift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		71866FFC190C445A008FD7C5 /* TObjective-C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		71866FFD190C445A008FD7C5 /* TProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		71866FFE190C445A008FD7C5 /* TProcessorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		71867000190C445A008FD7C5 /* THTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		71867001190C445A008FD7C5 /* THTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		71867002190C445A008FD7C5 /* TMemoryBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		71867003190C445A008FD7C5 /* TMemoryBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		71867004190C445A008FD7C5 /* TTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		71867005190C445A008FD7C5 /* TTransportException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		71867006190C445A008FD7C5 /* TTransportException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		71867008190C445A008FD7C5 /* EDAM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAM.h; sourceTree = "<group>"; };
+		71867009190C445A008FD7C5 /* EDAMErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAMErrors.h; sourceTree = "<group>"; };
+		7186700A190C445A008FD7C5 /* EDAMErrors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAMErrors.m; sourceTree = "<group>"; };
+		7186700B190C445A008FD7C5 /* EDAMLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAMLimits.h; sourceTree = "<group>"; };
+		7186700C190C445A008FD7C5 /* EDAMLimits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAMLimits.m; sourceTree = "<group>"; };
+		7186700D190C445A008FD7C5 /* EDAMNoteStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAMNoteStore.h; sourceTree = "<group>"; };
+		7186700E190C445A008FD7C5 /* EDAMNoteStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAMNoteStore.m; sourceTree = "<group>"; };
+		7186700F190C445A008FD7C5 /* EDAMTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAMTypes.h; sourceTree = "<group>"; };
+		71867010190C445A008FD7C5 /* EDAMTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAMTypes.m; sourceTree = "<group>"; };
+		71867011190C445A008FD7C5 /* EDAMUserStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAMUserStore.h; sourceTree = "<group>"; };
+		71867012190C445A008FD7C5 /* EDAMUserStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAMUserStore.m; sourceTree = "<group>"; };
+		71867013190C445A008FD7C5 /* EDAMNoteStoreClient+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EDAMNoteStoreClient+Utilities.h"; sourceTree = "<group>"; };
+		71867014190C445A008FD7C5 /* EDAMNoteStoreClient+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EDAMNoteStoreClient+Utilities.m"; sourceTree = "<group>"; };
+		71867015190C445A008FD7C5 /* ENConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENConstants.h; sourceTree = "<group>"; };
+		71867016190C445A008FD7C5 /* ENConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENConstants.m; sourceTree = "<group>"; };
+		71867017190C445A008FD7C5 /* evernote-sdk-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "evernote-sdk-ios-Prefix.pch"; sourceTree = "<group>"; };
+		71867018190C445A008FD7C5 /* EvernoteNoteStore+Extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EvernoteNoteStore+Extras.h"; sourceTree = "<group>"; };
+		71867019190C445A008FD7C5 /* EvernoteNoteStore+Extras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EvernoteNoteStore+Extras.m"; sourceTree = "<group>"; };
+		7186701A190C445A008FD7C5 /* EvernoteNoteStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvernoteNoteStore.h; sourceTree = "<group>"; };
+		7186701B190C445A008FD7C5 /* EvernoteNoteStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvernoteNoteStore.m; sourceTree = "<group>"; };
+		7186701C190C445A008FD7C5 /* EvernoteSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvernoteSDK.h; sourceTree = "<group>"; };
+		7186701D190C445A008FD7C5 /* EvernoteSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvernoteSDK.m; sourceTree = "<group>"; };
+		7186701E190C445A008FD7C5 /* EvernoteSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvernoteSession.h; sourceTree = "<group>"; };
+		7186701F190C445A008FD7C5 /* EvernoteSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvernoteSession.m; sourceTree = "<group>"; };
+		71867020190C445A008FD7C5 /* EvernoteUserStore+Extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EvernoteUserStore+Extras.h"; sourceTree = "<group>"; };
+		71867021190C445A008FD7C5 /* EvernoteUserStore+Extras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EvernoteUserStore+Extras.m"; sourceTree = "<group>"; };
+		71867022190C445A008FD7C5 /* EvernoteUserStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvernoteUserStore.h; sourceTree = "<group>"; };
+		71867023190C445A008FD7C5 /* EvernoteUserStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvernoteUserStore.m; sourceTree = "<group>"; };
+		71867026190C445A008FD7C5 /* ENApplicationBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENApplicationBridge.h; sourceTree = "<group>"; };
+		71867027190C445A008FD7C5 /* ENApplicationBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENApplicationBridge.m; sourceTree = "<group>"; };
+		71867028190C445A008FD7C5 /* ENApplicationBridge_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENApplicationBridge_Private.h; sourceTree = "<group>"; };
+		71867029190C445A008FD7C5 /* ENApplicationRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENApplicationRequest.h; sourceTree = "<group>"; };
+		7186702A190C445A008FD7C5 /* ENAuthenticationRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENAuthenticationRequest.h; sourceTree = "<group>"; };
+		7186702B190C445A008FD7C5 /* ENAuthenticationRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENAuthenticationRequest.m; sourceTree = "<group>"; };
+		7186702C190C445A008FD7C5 /* ENLinkNotebookRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENLinkNotebookRequest.h; sourceTree = "<group>"; };
+		7186702D190C445A008FD7C5 /* ENLinkNotebookRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENLinkNotebookRequest.m; sourceTree = "<group>"; };
+		7186702E190C445A008FD7C5 /* ENNewNoteRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNewNoteRequest.h; sourceTree = "<group>"; };
+		7186702F190C445A008FD7C5 /* ENNewNoteRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNewNoteRequest.m; sourceTree = "<group>"; };
+		71867030190C445A008FD7C5 /* ENNoteImportRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNoteImportRequest.h; sourceTree = "<group>"; };
+		71867031190C445A008FD7C5 /* ENNoteImportRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNoteImportRequest.m; sourceTree = "<group>"; };
+		71867032190C445A008FD7C5 /* ENNoteViewRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNoteViewRequest.h; sourceTree = "<group>"; };
+		71867033190C445A008FD7C5 /* ENNoteViewRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNoteViewRequest.m; sourceTree = "<group>"; };
+		71867034190C445A008FD7C5 /* ENResourceAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENResourceAttachment.h; sourceTree = "<group>"; };
+		71867035190C445A008FD7C5 /* ENResourceAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENResourceAttachment.m; sourceTree = "<group>"; };
+		71867036190C445A008FD7C5 /* ENSearchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENSearchRequest.h; sourceTree = "<group>"; };
+		71867037190C445A008FD7C5 /* ENSearchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENSearchRequest.m; sourceTree = "<group>"; };
+		71867038190C445A008FD7C5 /* EvernoteBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvernoteBridge.h; sourceTree = "<group>"; };
+		7186703A190C445A008FD7C5 /* .htaccess */ = {isa = PBXFileReference; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
+		7186703B190C445A008FD7C5 /* enml.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = enml.dtd; sourceTree = "<group>"; };
+		7186703C190C445A008FD7C5 /* enml2.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = enml2.dtd; sourceTree = "<group>"; };
+		7186703D190C445A008FD7C5 /* evernote-export.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "evernote-export.dtd"; sourceTree = "<group>"; };
+		7186703E190C445A008FD7C5 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		7186703F190C445A008FD7C5 /* promotions.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = promotions.dtd; sourceTree = "<group>"; };
+		71867040190C445A008FD7C5 /* recoIndex.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = recoIndex.dtd; sourceTree = "<group>"; };
+		71867041190C445A008FD7C5 /* xhtml-lat1.ent */ = {isa = PBXFileReference; lastKnownFileType = text; path = "xhtml-lat1.ent"; sourceTree = "<group>"; };
+		71867042190C445A008FD7C5 /* xhtml-special.ent */ = {isa = PBXFileReference; lastKnownFileType = text; path = "xhtml-special.ent"; sourceTree = "<group>"; };
+		71867043190C445A008FD7C5 /* xhtml-symbol.ent */ = {isa = PBXFileReference; lastKnownFileType = text; path = "xhtml-symbol.ent"; sourceTree = "<group>"; };
+		71867044190C445A008FD7C5 /* xhtml1-strict.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "xhtml1-strict.dtd"; sourceTree = "<group>"; };
+		71867045190C445A008FD7C5 /* xhtml1-transitional.dtd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "xhtml1-transitional.dtd"; sourceTree = "<group>"; };
+		71867046190C445A008FD7C5 /* ENAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENAPI.h; sourceTree = "<group>"; };
+		71867047190C445A008FD7C5 /* ENAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENAPI.m; sourceTree = "<group>"; };
+		71867048190C445A008FD7C5 /* ENCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENCredentials.h; sourceTree = "<group>"; };
+		71867049190C445A008FD7C5 /* ENCredentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENCredentials.m; sourceTree = "<group>"; };
+		7186704A190C445A008FD7C5 /* ENCredentialStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENCredentialStore.h; sourceTree = "<group>"; };
+		7186704B190C445A008FD7C5 /* ENCredentialStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENCredentialStore.m; sourceTree = "<group>"; };
+		7186704C190C445A008FD7C5 /* ENOAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENOAuthViewController.h; sourceTree = "<group>"; };
+		7186704D190C445A008FD7C5 /* ENOAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENOAuthViewController.m; sourceTree = "<group>"; };
+		7186704F190C445A008FD7C5 /* EvernoteSDK.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = EvernoteSDK.strings; sourceTree = "<group>"; };
+		71867051190C445A008FD7C5 /* ENMLUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENMLUtility.h; sourceTree = "<group>"; };
+		71867052190C445A008FD7C5 /* ENMLUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENMLUtility.m; sourceTree = "<group>"; };
+		71867054190C445A008FD7C5 /* ENEncryptedContentInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENEncryptedContentInfo.h; sourceTree = "<group>"; };
+		71867055190C445A008FD7C5 /* ENEncryptedContentInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENEncryptedContentInfo.m; sourceTree = "<group>"; };
+		71867056190C445A008FD7C5 /* ENMIMEUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENMIMEUtils.h; sourceTree = "<group>"; };
+		71867057190C445A008FD7C5 /* ENMIMEUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENMIMEUtils.m; sourceTree = "<group>"; };
+		71867058190C445A008FD7C5 /* ENMLWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENMLWriter.h; sourceTree = "<group>"; };
+		71867059190C445A008FD7C5 /* ENMLWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENMLWriter.m; sourceTree = "<group>"; };
+		7186705A190C445A008FD7C5 /* ENXMLDTD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENXMLDTD.h; sourceTree = "<group>"; };
+		7186705B190C445A008FD7C5 /* ENXMLDTD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENXMLDTD.m; sourceTree = "<group>"; };
+		7186705C190C445A008FD7C5 /* ENXMLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENXMLUtils.h; sourceTree = "<group>"; };
+		7186705D190C445A008FD7C5 /* ENXMLWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENXMLWriter.h; sourceTree = "<group>"; };
+		7186705E190C445A008FD7C5 /* ENXMLWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENXMLWriter.m; sourceTree = "<group>"; };
+		7186705F190C445A008FD7C5 /* NSRegularExpression+ENAGRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+ENAGRegex.h"; sourceTree = "<group>"; };
+		71867060190C445A008FD7C5 /* NSRegularExpression+ENAGRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+ENAGRegex.m"; sourceTree = "<group>"; };
+		71867061190C445A008FD7C5 /* NSString+EDAMAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EDAMAdditions.m"; sourceTree = "<group>"; };
+		71867062190C445A008FD7C5 /* NSString+EDAMNilAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EDAMNilAdditions.h"; sourceTree = "<group>"; };
+		71867063190C445A008FD7C5 /* NSData+EvernoteSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+EvernoteSDK.h"; sourceTree = "<group>"; };
+		71867064190C445A008FD7C5 /* NSData+EvernoteSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+EvernoteSDK.m"; sourceTree = "<group>"; };
+		71867065190C445A008FD7C5 /* NSDataBase64Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDataBase64Additions.h; sourceTree = "<group>"; };
+		71867066190C445A008FD7C5 /* NSDataBase64Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataBase64Additions.m; sourceTree = "<group>"; };
+		71867067190C445A008FD7C5 /* NSDate+EDAMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+EDAMAdditions.h"; sourceTree = "<group>"; };
+		71867068190C445A008FD7C5 /* NSDate+EDAMAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EDAMAdditions.m"; sourceTree = "<group>"; };
 		7F04946A188AFE5400BE7C4E /* NSString+OSKEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OSKEmoji.h"; sourceTree = "<group>"; };
 		7F04946B188AFE5400BE7C4E /* NSString+OSKEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OSKEmoji.m"; sourceTree = "<group>"; };
 		7F19F901181F228200E5EA52 /* osk-iap-badge-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-iap-badge-60@2x.png"; sourceTree = "<group>"; };
@@ -281,8 +421,6 @@
 		7F75BEF71821539700D3681E /* OSKAccountManagementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAccountManagementViewController.m; sourceTree = "<group>"; };
 		7F75BEF81821539700D3681E /* OSKFacebookUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKFacebookUtility.h; sourceTree = "<group>"; };
 		7F75BEF91821539700D3681E /* OSKFacebookUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKFacebookUtility.m; sourceTree = "<group>"; };
-		7F75BEFA1821539700D3681E /* OSKPocketAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKPocketAccountViewController.h; sourceTree = "<group>"; };
-		7F75BEFB1821539700D3681E /* OSKPocketAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKPocketAccountViewController.m; sourceTree = "<group>"; };
 		7F75BEFC1821539700D3681E /* UIImage+OSKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OSKUtilities.h"; sourceTree = "<group>"; };
 		7F75BEFD1821539700D3681E /* UIImage+OSKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OSKUtilities.m"; sourceTree = "<group>"; };
 		7F75BF02182153AA00D3681E /* osk-iap-badge-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-iap-badge-60.png"; sourceTree = "<group>"; };
@@ -608,6 +746,11 @@
 		8895C34B18A3BA6B000B7F28 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8895C34D18A3BA70000B7F28 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8895C34F18A3BA78000B7F28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		932EF296A7E4DC4740D0B436 /* osk-evernoteIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-evernoteIcon-60@2x.png"; sourceTree = "<group>"; };
+		932EFA5DD94E0C752D332B32 /* osk-evernoteIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-evernoteIcon-76@2x.png"; sourceTree = "<group>"; };
+		932EFAFF09ABDA7E59B63992 /* osk-evernoteIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-evernoteIcon-76.png"; sourceTree = "<group>"; };
+		932EFD4ABFBAC979B086A5C7 /* osk-evernoteIcon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-evernoteIcon-29@2x.png"; sourceTree = "<group>"; };
+		932EFE2114F64833D0DDC255 /* osk-evernoteIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-evernoteIcon-29.png"; sourceTree = "<group>"; };
 		F2ED4093BD3864F639BD9AB1 /* GooglePlus-Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GooglePlus-Icon-76.png"; sourceTree = "<group>"; };
 		F2ED4477173538D750DC8F83 /* GooglePlus-Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GooglePlus-Icon-29.png"; sourceTree = "<group>"; };
 		F2ED44D42685E0B33F979699 /* GooglePlus-Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GooglePlus-Icon-29@2x.png"; sourceTree = "<group>"; };
@@ -785,9 +928,287 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		71866FCB190C445A008FD7C5 /* evernote-sdk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				71866FCC190C445A008FD7C5 /* 3rdParty */,
+				71867007190C445A008FD7C5 /* EDAM */,
+				71867013190C445A008FD7C5 /* EDAMNoteStoreClient+Utilities.h */,
+				71867014190C445A008FD7C5 /* EDAMNoteStoreClient+Utilities.m */,
+				71867015190C445A008FD7C5 /* ENConstants.h */,
+				71867016190C445A008FD7C5 /* ENConstants.m */,
+				71867017190C445A008FD7C5 /* evernote-sdk-ios-Prefix.pch */,
+				71867018190C445A008FD7C5 /* EvernoteNoteStore+Extras.h */,
+				71867019190C445A008FD7C5 /* EvernoteNoteStore+Extras.m */,
+				7186701A190C445A008FD7C5 /* EvernoteNoteStore.h */,
+				7186701B190C445A008FD7C5 /* EvernoteNoteStore.m */,
+				7186701C190C445A008FD7C5 /* EvernoteSDK.h */,
+				7186701D190C445A008FD7C5 /* EvernoteSDK.m */,
+				7186701E190C445A008FD7C5 /* EvernoteSession.h */,
+				7186701F190C445A008FD7C5 /* EvernoteSession.m */,
+				71867020190C445A008FD7C5 /* EvernoteUserStore+Extras.h */,
+				71867021190C445A008FD7C5 /* EvernoteUserStore+Extras.m */,
+				71867022190C445A008FD7C5 /* EvernoteUserStore.h */,
+				71867023190C445A008FD7C5 /* EvernoteUserStore.m */,
+				71867024190C445A008FD7C5 /* internal */,
+				71867050190C445A008FD7C5 /* Utilities */,
+			);
+			name = "evernote-sdk-ios";
+			path = "../../../Dependencies/EvernoteSDK/evernote-sdk-ios";
+			sourceTree = "<group>";
+		};
+		71866FCC190C445A008FD7C5 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				71866FCD190C445A008FD7C5 /* AFNetworking */,
+				71866FD0190C445A008FD7C5 /* cocoa-oauth */,
+				71866FD6190C445A008FD7C5 /* KSHTMLWriter */,
+				71866FE4190C445A008FD7C5 /* NSString+URLEncoding */,
+				71866FE8190C445A008FD7C5 /* SSKeychain */,
+				71866FEC190C445A008FD7C5 /* Thrift */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		71866FCD190C445A008FD7C5 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				71866FCE190C445A008FD7C5 /* ENAFURLConnectionOperation.h */,
+				71866FCF190C445A008FD7C5 /* ENAFURLConnectionOperation.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		71866FD0190C445A008FD7C5 /* cocoa-oauth */ = {
+			isa = PBXGroup;
+			children = (
+				71866FD1190C445A008FD7C5 /* ENGCOAuth.h */,
+				71866FD2190C445A008FD7C5 /* ENGCOAuth.m */,
+				71866FD3190C445A008FD7C5 /* LICENSE */,
+				71866FD4190C445A008FD7C5 /* NSData+ENBase64.h */,
+				71866FD5190C445A008FD7C5 /* NSData+ENBase64.m */,
+			);
+			path = "cocoa-oauth";
+			sourceTree = "<group>";
+		};
+		71866FD6190C445A008FD7C5 /* KSHTMLWriter */ = {
+			isa = PBXGroup;
+			children = (
+				71866FD7190C445A008FD7C5 /* KSForwardingWriter.h */,
+				71866FD8190C445A008FD7C5 /* KSForwardingWriter.m */,
+				71866FD9190C445A008FD7C5 /* KSHTMLWriter.h */,
+				71866FDA190C445A008FD7C5 /* KSHTMLWriter.m */,
+				71866FDB190C445A008FD7C5 /* KSWriter.h */,
+				71866FDC190C445A008FD7C5 /* KSWriter.m */,
+				71866FDD190C445A008FD7C5 /* KSXMLAttributes.h */,
+				71866FDE190C445A008FD7C5 /* KSXMLAttributes.m */,
+				71866FDF190C445A008FD7C5 /* KSXMLWriter.h */,
+				71866FE0190C445A008FD7C5 /* KSXMLWriter.m */,
+				71866FE1190C445A008FD7C5 /* LICENSE.txt */,
+				71866FE2190C445A008FD7C5 /* NSString+XMLAdditions.h */,
+				71866FE3190C445A008FD7C5 /* NSString+XMLAdditions.m */,
+			);
+			path = KSHTMLWriter;
+			sourceTree = "<group>";
+		};
+		71866FE4190C445A008FD7C5 /* NSString+URLEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				71866FE5190C445A008FD7C5 /* LICENSE */,
+				71866FE6190C445A008FD7C5 /* NSString+URLEncoding.h */,
+				71866FE7190C445A008FD7C5 /* NSString+URLEncoding.m */,
+			);
+			path = "NSString+URLEncoding";
+			sourceTree = "<group>";
+		};
+		71866FE8190C445A008FD7C5 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				71866FE9190C445A008FD7C5 /* LICENSE */,
+				71866FEA190C445A008FD7C5 /* SSKeychain.h */,
+				71866FEB190C445A008FD7C5 /* SSKeychain.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		71866FEC190C445A008FD7C5 /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				71866FED190C445A008FD7C5 /* LICENSE */,
+				71866FEE190C445A008FD7C5 /* protocol */,
+				71866FF7190C445A008FD7C5 /* TApplicationException.h */,
+				71866FF8190C445A008FD7C5 /* TApplicationException.m */,
+				71866FF9190C445A008FD7C5 /* TException.h */,
+				71866FFA190C445A008FD7C5 /* TException.m */,
+				71866FFB190C445A008FD7C5 /* Thrift.h */,
+				71866FFC190C445A008FD7C5 /* TObjective-C.h */,
+				71866FFD190C445A008FD7C5 /* TProcessor.h */,
+				71866FFE190C445A008FD7C5 /* TProcessorFactory.h */,
+				71866FFF190C445A008FD7C5 /* transport */,
+			);
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		71866FEE190C445A008FD7C5 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				71866FEF190C445A008FD7C5 /* TBinaryProtocol.h */,
+				71866FF0190C445A008FD7C5 /* TBinaryProtocol.m */,
+				71866FF1190C445A008FD7C5 /* TProtocol.h */,
+				71866FF2190C445A008FD7C5 /* TProtocolException.h */,
+				71866FF3190C445A008FD7C5 /* TProtocolException.m */,
+				71866FF4190C445A008FD7C5 /* TProtocolFactory.h */,
+				71866FF5190C445A008FD7C5 /* TProtocolUtil.h */,
+				71866FF6190C445A008FD7C5 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		71866FFF190C445A008FD7C5 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				71867000190C445A008FD7C5 /* THTTPClient.h */,
+				71867001190C445A008FD7C5 /* THTTPClient.m */,
+				71867002190C445A008FD7C5 /* TMemoryBuffer.h */,
+				71867003190C445A008FD7C5 /* TMemoryBuffer.m */,
+				71867004190C445A008FD7C5 /* TTransport.h */,
+				71867005190C445A008FD7C5 /* TTransportException.h */,
+				71867006190C445A008FD7C5 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		71867007190C445A008FD7C5 /* EDAM */ = {
+			isa = PBXGroup;
+			children = (
+				71867008190C445A008FD7C5 /* EDAM.h */,
+				71867009190C445A008FD7C5 /* EDAMErrors.h */,
+				7186700A190C445A008FD7C5 /* EDAMErrors.m */,
+				7186700B190C445A008FD7C5 /* EDAMLimits.h */,
+				7186700C190C445A008FD7C5 /* EDAMLimits.m */,
+				7186700D190C445A008FD7C5 /* EDAMNoteStore.h */,
+				7186700E190C445A008FD7C5 /* EDAMNoteStore.m */,
+				7186700F190C445A008FD7C5 /* EDAMTypes.h */,
+				71867010190C445A008FD7C5 /* EDAMTypes.m */,
+				71867011190C445A008FD7C5 /* EDAMUserStore.h */,
+				71867012190C445A008FD7C5 /* EDAMUserStore.m */,
+			);
+			path = EDAM;
+			sourceTree = "<group>";
+		};
+		71867024190C445A008FD7C5 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				71867025190C445A008FD7C5 /* Bridge */,
+				71867039190C445A008FD7C5 /* DTDs */,
+				71867046190C445A008FD7C5 /* ENAPI.h */,
+				71867047190C445A008FD7C5 /* ENAPI.m */,
+				71867048190C445A008FD7C5 /* ENCredentials.h */,
+				71867049190C445A008FD7C5 /* ENCredentials.m */,
+				7186704A190C445A008FD7C5 /* ENCredentialStore.h */,
+				7186704B190C445A008FD7C5 /* ENCredentialStore.m */,
+				7186704C190C445A008FD7C5 /* ENOAuthViewController.h */,
+				7186704D190C445A008FD7C5 /* ENOAuthViewController.m */,
+				7186704E190C445A008FD7C5 /* Resources */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		71867025190C445A008FD7C5 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				71867026190C445A008FD7C5 /* ENApplicationBridge.h */,
+				71867027190C445A008FD7C5 /* ENApplicationBridge.m */,
+				71867028190C445A008FD7C5 /* ENApplicationBridge_Private.h */,
+				71867029190C445A008FD7C5 /* ENApplicationRequest.h */,
+				7186702A190C445A008FD7C5 /* ENAuthenticationRequest.h */,
+				7186702B190C445A008FD7C5 /* ENAuthenticationRequest.m */,
+				7186702C190C445A008FD7C5 /* ENLinkNotebookRequest.h */,
+				7186702D190C445A008FD7C5 /* ENLinkNotebookRequest.m */,
+				7186702E190C445A008FD7C5 /* ENNewNoteRequest.h */,
+				7186702F190C445A008FD7C5 /* ENNewNoteRequest.m */,
+				71867030190C445A008FD7C5 /* ENNoteImportRequest.h */,
+				71867031190C445A008FD7C5 /* ENNoteImportRequest.m */,
+				71867032190C445A008FD7C5 /* ENNoteViewRequest.h */,
+				71867033190C445A008FD7C5 /* ENNoteViewRequest.m */,
+				71867034190C445A008FD7C5 /* ENResourceAttachment.h */,
+				71867035190C445A008FD7C5 /* ENResourceAttachment.m */,
+				71867036190C445A008FD7C5 /* ENSearchRequest.h */,
+				71867037190C445A008FD7C5 /* ENSearchRequest.m */,
+				71867038190C445A008FD7C5 /* EvernoteBridge.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		71867039190C445A008FD7C5 /* DTDs */ = {
+			isa = PBXGroup;
+			children = (
+				7186703A190C445A008FD7C5 /* .htaccess */,
+				7186703B190C445A008FD7C5 /* enml.dtd */,
+				7186703C190C445A008FD7C5 /* enml2.dtd */,
+				7186703D190C445A008FD7C5 /* evernote-export.dtd */,
+				7186703E190C445A008FD7C5 /* index.php */,
+				7186703F190C445A008FD7C5 /* promotions.dtd */,
+				71867040190C445A008FD7C5 /* recoIndex.dtd */,
+				71867041190C445A008FD7C5 /* xhtml-lat1.ent */,
+				71867042190C445A008FD7C5 /* xhtml-special.ent */,
+				71867043190C445A008FD7C5 /* xhtml-symbol.ent */,
+				71867044190C445A008FD7C5 /* xhtml1-strict.dtd */,
+				71867045190C445A008FD7C5 /* xhtml1-transitional.dtd */,
+			);
+			path = DTDs;
+			sourceTree = "<group>";
+		};
+		7186704E190C445A008FD7C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7186704F190C445A008FD7C5 /* EvernoteSDK.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71867050190C445A008FD7C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				71867051190C445A008FD7C5 /* ENMLUtility.h */,
+				71867052190C445A008FD7C5 /* ENMLUtility.m */,
+				71867053190C445A008FD7C5 /* ENMLWriter */,
+				71867063190C445A008FD7C5 /* NSData+EvernoteSDK.h */,
+				71867064190C445A008FD7C5 /* NSData+EvernoteSDK.m */,
+				71867065190C445A008FD7C5 /* NSDataBase64Additions.h */,
+				71867066190C445A008FD7C5 /* NSDataBase64Additions.m */,
+				71867067190C445A008FD7C5 /* NSDate+EDAMAdditions.h */,
+				71867068190C445A008FD7C5 /* NSDate+EDAMAdditions.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		71867053190C445A008FD7C5 /* ENMLWriter */ = {
+			isa = PBXGroup;
+			children = (
+				71867054190C445A008FD7C5 /* ENEncryptedContentInfo.h */,
+				71867055190C445A008FD7C5 /* ENEncryptedContentInfo.m */,
+				71867056190C445A008FD7C5 /* ENMIMEUtils.h */,
+				71867057190C445A008FD7C5 /* ENMIMEUtils.m */,
+				71867058190C445A008FD7C5 /* ENMLWriter.h */,
+				71867059190C445A008FD7C5 /* ENMLWriter.m */,
+				7186705A190C445A008FD7C5 /* ENXMLDTD.h */,
+				7186705B190C445A008FD7C5 /* ENXMLDTD.m */,
+				7186705C190C445A008FD7C5 /* ENXMLUtils.h */,
+				7186705D190C445A008FD7C5 /* ENXMLWriter.h */,
+				7186705E190C445A008FD7C5 /* ENXMLWriter.m */,
+				7186705F190C445A008FD7C5 /* NSRegularExpression+ENAGRegex.h */,
+				71867060190C445A008FD7C5 /* NSRegularExpression+ENAGRegex.m */,
+				71867061190C445A008FD7C5 /* NSString+EDAMAdditions.m */,
+				71867062190C445A008FD7C5 /* NSString+EDAMNilAdditions.h */,
+			);
+			path = ENMLWriter;
+			sourceTree = "<group>";
+		};
 		7F6711F8181EDF870006E037 /* Third-Party Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				71866FCB190C445A008FD7C5 /* evernote-sdk-ios */,
 				71866A08190C2E56008FD7C5 /* vk-ios-sdk */,
 				7F6711F9181EDF900006E037 /* ADNLogin */,
 				7F6711FA181EDF960006E037 /* Pocket */,
@@ -1088,8 +1509,6 @@
 				7FCD02811853975D005C5931 /* OSKActivityToggleCell.m */,
 				7F75BEF81821539700D3681E /* OSKFacebookUtility.h */,
 				7F75BEF91821539700D3681E /* OSKFacebookUtility.m */,
-				7F75BEFA1821539700D3681E /* OSKPocketAccountViewController.h */,
-				7F75BEFB1821539700D3681E /* OSKPocketAccountViewController.m */,
 				7FB34FE91895ADBE0081C91A /* OSKURLSchemeActivity.h */,
 				7FB34FEA1895ADBE0081C91A /* OSKXCallbackURLInfo.h */,
 				7F75BEFC1821539700D3681E /* UIImage+OSKUtilities.h */,
@@ -1218,6 +1637,11 @@
 				F2ED4C4D02BFDC027DA4CF09 /* GooglePlus-Icon-60@2x.png */,
 				F2ED4093BD3864F639BD9AB1 /* GooglePlus-Icon-76.png */,
 				F2ED4EC6E2B261337F108FDF /* GooglePlus-Icon-76@2x.png */,
+				932EFAFF09ABDA7E59B63992 /* osk-evernoteIcon-76.png */,
+				932EFE2114F64833D0DDC255 /* osk-evernoteIcon-29.png */,
+				932EF296A7E4DC4740D0B436 /* osk-evernoteIcon-60@2x.png */,
+				932EFA5DD94E0C752D332B32 /* osk-evernoteIcon-76@2x.png */,
+				932EFD4ABFBAC979B086A5C7 /* osk-evernoteIcon-29@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -1358,7 +1782,6 @@
 				7FD649EC1895EB480021BD50 /* OSKDraftsActivity.m in Sources */,
 				7FEE78C6181ED8FE000F684A /* OSKAirDropViewController.m in Sources */,
 				7F55A30D18425C6C004A3BCC /* OSKSessionController_Pad.m in Sources */,
-				7F75BF001821539700D3681E /* OSKPocketAccountViewController.m in Sources */,
 				7FEE78B5181ED8FE000F684A /* NSString+OSK_UUID.m in Sources */,
 				7FEE78B9181ED8FE000F684A /* OSK1PasswordSearchActivity.m in Sources */,
 				7F1DA9E0183C6B050082356D /* OSKLinkShorteningUtility.m in Sources */,
