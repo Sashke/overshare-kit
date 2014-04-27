@@ -70,7 +70,6 @@
 		71866F88190C4450008FD7C5 /* KSXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 71866EF7190C4450008FD7C5 /* KSXMLWriter.m */; };
 		71866F89190C4450008FD7C5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71866EF8190C4450008FD7C5 /* LICENSE.txt */; };
 		71866F8A190C4450008FD7C5 /* NSString+XMLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71866EFA190C4450008FD7C5 /* NSString+XMLAdditions.m */; };
-		71866F8B190C4450008FD7C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 71866EFC190C4450008FD7C5 /* LICENSE */; };
 		71866F8C190C4450008FD7C5 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 71866EFE190C4450008FD7C5 /* NSString+URLEncoding.m */; };
 		71866F8D190C4450008FD7C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 71866F00190C4450008FD7C5 /* LICENSE */; };
 		71866F8E190C4450008FD7C5 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 71866F02190C4450008FD7C5 /* SSKeychain.m */; };
@@ -133,6 +132,9 @@
 		71866FC7190C4450008FD7C5 /* NSDataBase64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71866F7D190C4450008FD7C5 /* NSDataBase64Additions.m */; };
 		71866FC8190C4450008FD7C5 /* NSDate+EDAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71866F7F190C4450008FD7C5 /* NSDate+EDAMAdditions.m */; };
 		7186706E190C44F7008FD7C5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7186706D190C44F7008FD7C5 /* libxml2.dylib */; };
+		718671DF190D3A91008FD7C5 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718671DC190D3A91008FD7C5 /* GoogleOpenSource.framework */; };
+		718671E0190D3A92008FD7C5 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 718671DD190D3A91008FD7C5 /* GooglePlus.bundle */; };
+		718671E1190D3A92008FD7C5 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718671DE190D3A91008FD7C5 /* GooglePlus.framework */; };
 		7F03EA2D18F5B8D000A4CEE4 /* OSKSaveToCameraRollActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F03EA2C18F5B8D000A4CEE4 /* OSKSaveToCameraRollActivity.m */; };
 		7F049469188AFE4600BE7C4E /* NSString+OSKEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F049468188AFE4600BE7C4E /* NSString+OSKEmoji.m */; };
 		7F14C95618DB5D1D00E635FE /* OSKTextViewAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14C95518DB5D1D00E635FE /* OSKTextViewAttachment.m */; };
@@ -371,7 +373,6 @@
 		7FEE77DA181ED8EF000F684A /* UIView+OSKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7763181ED8EF000F684A /* UIView+OSKUtilities.m */; };
 		7FEE77DB181ED8EF000F684A /* UIViewController+OSKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7765181ED8EF000F684A /* UIViewController+OSKUtilities.m */; };
 		8895C32E18A3B967000B7F28 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895C32B18A3B967000B7F28 /* GoogleOpenSource.framework */; };
-		8895C32F18A3B967000B7F28 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8895C32C18A3B967000B7F28 /* GooglePlus.bundle */; };
 		8895C33018A3B967000B7F28 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895C32D18A3B967000B7F28 /* GooglePlus.framework */; };
 		8895C33218A3B9E6000B7F28 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895C33118A3B9E6000B7F28 /* CoreMotion.framework */; };
 		8895C33418A3B9EF000B7F28 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895C33318A3B9EF000B7F28 /* AddressBook.framework */; };
@@ -661,6 +662,9 @@
 		71866F7E190C4450008FD7C5 /* NSDate+EDAMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EDAMAdditions.h"; sourceTree = "<group>"; };
 		71866F7F190C4450008FD7C5 /* NSDate+EDAMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EDAMAdditions.m"; sourceTree = "<group>"; };
 		7186706D190C44F7008FD7C5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		718671DC190D3A91008FD7C5 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "../../../Dependencies/google-plus-ios-sdk/GoogleOpenSource.framework"; sourceTree = "<group>"; };
+		718671DD190D3A91008FD7C5 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "../../../Dependencies/google-plus-ios-sdk/GooglePlus.bundle"; sourceTree = "<group>"; };
+		718671DE190D3A91008FD7C5 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "../../../Dependencies/google-plus-ios-sdk/GooglePlus.framework"; sourceTree = "<group>"; };
 		7F03EA2B18F5B8D000A4CEE4 /* OSKSaveToCameraRollActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKSaveToCameraRollActivity.h; sourceTree = "<group>"; };
 		7F03EA2C18F5B8D000A4CEE4 /* OSKSaveToCameraRollActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKSaveToCameraRollActivity.m; sourceTree = "<group>"; };
 		7F049467188AFE4600BE7C4E /* NSString+OSKEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OSKEmoji.h"; sourceTree = "<group>"; };
@@ -1076,6 +1080,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7186706E190C44F7008FD7C5 /* libxml2.dylib in Frameworks */,
+				718671E1190D3A92008FD7C5 /* GooglePlus.framework in Frameworks */,
 				8895C34018A3BA24000B7F28 /* SystemConfiguration.framework in Frameworks */,
 				8895C33E18A3BA1B000B7F28 /* Security.framework in Frameworks */,
 				8895C33C18A3BA16000B7F28 /* MediaPlayer.framework in Frameworks */,
@@ -1085,6 +1090,7 @@
 				8895C33818A3BA00000B7F28 /* CoreLocation.framework in Frameworks */,
 				7FEE7633181ED83D000F684A /* Foundation.framework in Frameworks */,
 				8895C33618A3B9F4000B7F28 /* AssetsLibrary.framework in Frameworks */,
+				718671DF190D3A91008FD7C5 /* GoogleOpenSource.framework in Frameworks */,
 				8895C33418A3B9EF000B7F28 /* AddressBook.framework in Frameworks */,
 				8895C33018A3B967000B7F28 /* GooglePlus.framework in Frameworks */,
 				7FEE7637181ED83D000F684A /* UIKit.framework in Frameworks */,
@@ -1517,6 +1523,16 @@
 				71866F79190C4450008FD7C5 /* NSString+EDAMNilAdditions.h */,
 			);
 			path = ENMLWriter;
+			sourceTree = "<group>";
+		};
+		718671D9190D3A7F008FD7C5 /* google-plus-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				718671DC190D3A91008FD7C5 /* GoogleOpenSource.framework */,
+				718671DD190D3A91008FD7C5 /* GooglePlus.bundle */,
+				718671DE190D3A91008FD7C5 /* GooglePlus.framework */,
+			);
+			name = "google-plus-ios-sdk";
 			sourceTree = "<group>";
 		};
 		7F03EA2A18F5B8BD00A4CEE4 /* Save to Camera Roll */ = {
@@ -2310,6 +2326,7 @@
 		7FEE7922181EDC71000F684A /* Third-Party Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				718671D9190D3A7F008FD7C5 /* google-plus-ios-sdk */,
 				71866EE2190C4450008FD7C5 /* evernote-sdk-ios */,
 				71866A94190C2E84008FD7C5 /* vk-ios-sdk */,
 				7FEE7924181EDC88000F684A /* ADNLogin */,
@@ -2563,8 +2580,6 @@
 				7FDCDE97181EE1BA00AC2985 /* rain.jpg in Resources */,
 				71866F89190C4450008FD7C5 /* LICENSE.txt in Resources */,
 				7FD16DAF1876367A0035960C /* link-button.png in Resources */,
-				8895C32F18A3B967000B7F28 /* GooglePlus.bundle in Resources */,
-				71866F8B190C4450008FD7C5 /* LICENSE in Resources */,
 				7FEE776C181ED8EF000F684A /* Instapaper-Icon-76.png in Resources */,
 				7FE467321821E9650054D2BC /* osk-readabilityIcon-29@2x.png in Resources */,
 				7FD649E01895EAF20021BD50 /* Drafts-Icon-29.png in Resources */,
@@ -2573,6 +2588,7 @@
 				7F77F43A1822FAC60019452C /* Icon-76@2x.png in Resources */,
 				7FE466EE1821C9F20054D2BC /* Chrome-Icon-76@2x.png in Resources */,
 				7FEE779C181ED8EF000F684A /* OSKActivityCollectionViewCell_Pad.xib in Resources */,
+				718671E0190D3A92008FD7C5 /* GooglePlus.bundle in Resources */,
 				7FEE7645181ED83D000F684A /* Images.xcassets in Resources */,
 				7FEE7769181ED8EF000F684A /* Chrome-Icon-60@2x.png in Resources */,
 				71866FAF190C4450008FD7C5 /* enml2.dtd in Resources */,
@@ -2955,7 +2971,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"../../../Dependencies/GooglePlus-SDK",
+					"../../../Dependencies/google-plus-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Overshare/Overshare-Prefix.pch";
@@ -2981,7 +2997,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"../../../Dependencies/GooglePlus-SDK",
+					"../../../Dependencies/google-plus-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Overshare/Overshare-Prefix.pch";

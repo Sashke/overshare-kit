@@ -12,3 +12,6 @@
 [submodule "Dependencies/EvernoteSDK"]
 	path = Dependencies/EvernoteSDK
 	url = https://github.com/evernote/evernote-sdk-ios.git
+[submodule "Dependencies/google-plus-ios-sdk"]
+	path = Dependencies/google-plus-ios-sdk
+	url = https://github.com/peterfriese/google-plus-ios-sdk.git
