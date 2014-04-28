@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.dependency 'PocketAPI'
   s.dependency 'VK-ios-sdk'
   s.dependency 'google-plus-ios-sdk'
+  s.dependency 'Evernote-SDK-iOS'
 end
