@@ -135,6 +135,9 @@
     }
 }
 
+- (void)vkSdkUserDeniedAccess:(VKError *)authorizationError {
+}
+
 #pragma mark - Authentication Timeout
 
 - (void)startAuthenticationTimeoutTimer {
