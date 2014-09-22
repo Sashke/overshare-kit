@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/overshare/overshare-kit"
   s.license      = { :type => 'MIT', :file => 'LICENSE'  }
   s.author       = { "Jared Sinclair" => "desk@jaredsinclair.com", "Justin Williams" => "justin@carpeaqua.com" }
-  s.source       = { :git => "https://github.com/Sashke/overshare-kit.git", :branch => "neweerEdit" }
+  s.source       = { :git => "https://github.com/Sashke/overshare-kit.git", :tag => "neweer1.0.1" :branch => "neweerEdit" }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.frameworks   = 'UIKit', 'AddressBook', 'CoreMotion', 'CoreLocation'
