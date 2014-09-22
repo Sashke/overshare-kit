@@ -169,6 +169,10 @@ These can be custom items, or additional instances of the official items above.
 + (instancetype)contentFromImages:(NSArray *)images
                           caption:(NSString *)caption;
 
++ (instancetype)contentFromArticle:(NSString *)articleTitle
+                        articleURL:(NSString *)articleURL
+                         blogTitle:(NSString *)blogTitle;
+
 @end
 
 

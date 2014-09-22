@@ -24,14 +24,12 @@
 
 // SELECTING ACCOUNTS FOR ACTIVITIES
 @property (copy, nonatomic) OSKActivity <OSKActivity_ManagedAccounts> *managedAccountActivity;
-@property (strong, nonatomic) ACAccount *selectedSystemAccount;
 @property (copy, nonatomic) NSString *systemAccountTypeIdentifier;
-@property (strong, nonatomic) OSKManagedAccount *selectedManagedAccount;
 @property (weak, nonatomic) id <OSKAccountChooserViewControllerDelegate> delegate;
 
 // GENERAL ACCOUNT MANAGEMENT
-@property (assign, nonatomic) OSKAuthenticationMethod authenticationMethod;
-@property (strong, nonatomic) NSMutableArray *accounts;
+
+
 @property (assign, nonatomic) BOOL allowsEditing;
 @property (assign, nonatomic) BOOL allowsSelection;
 
