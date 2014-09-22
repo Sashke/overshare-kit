@@ -284,7 +284,7 @@ static NSInteger OSKTextViewFontSize_Pad = 20.0f;
 - (void)beginSessionWithSelectedActivity:(OSKActivity *)activity
                 presentingViewController:(UIViewController *)presentingViewController
                                  options:(NSDictionary *)options {
-    
+    self.presentingViewController = presentingViewController;
     OSKSession *session = [[OSKSession alloc] initWithPresentationEndingHandler:options[OSKPresentationOption_PresentationEndingHandler]
                                                       activityCompletionHandler:options[OSKPresentationOption_ActivityCompletionHandler]];
     [self _proceedWithSession:session
