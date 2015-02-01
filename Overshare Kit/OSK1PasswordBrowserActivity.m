@@ -55,6 +55,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-password.png";
+}
+
 + (UIImage *)settingsIcon {
     return [self iconForIdiom:UIUserInterfaceIdiomPhone];
 }

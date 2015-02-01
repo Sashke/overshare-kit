@@ -75,6 +75,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-instapaper.png";
+}
+
 + (UIImage *)settingsIcon {
     return [UIImage imageNamed:@"Instapaper-Icon-29.png"];
 }

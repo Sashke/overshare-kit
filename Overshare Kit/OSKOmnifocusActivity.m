@@ -57,6 +57,10 @@ static NSString * OSKOmnifocusActivity_AddEntryWithNoteURL = @"/add?name=%@&note
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-things.png";
+}
+
 + (UIImage *)settingsIcon {
     return [self iconForIdiom:UIUserInterfaceIdiomPhone];
 }

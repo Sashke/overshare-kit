@@ -302,6 +302,8 @@ typedef NS_ENUM(NSInteger, OSKPublishingMethod) {
  */
 + (UIImage *)settingsIcon;
 
++ (NSString *)horizontalPullIconName;
+
 @end;
 
 

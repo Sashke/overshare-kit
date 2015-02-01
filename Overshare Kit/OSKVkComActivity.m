@@ -72,6 +72,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-vkcom.png";
+}
+
 +(UIImage *)settingsIcon {
     return [UIImage imageNamed:@"VKCom-Icon-29.png"];
 }

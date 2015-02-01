@@ -76,6 +76,10 @@ static NSInteger OSKTwitterActivity_FallbackShortURLEstimate = 24;
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-twitter.png";
+}
+
 + (UIImage *)settingsIcon {
     return [self iconForIdiom:UIUserInterfaceIdiomPhone];
 }

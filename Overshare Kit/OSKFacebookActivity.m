@@ -100,6 +100,10 @@ static NSString * OSKFacebookActivity_PreviousAudienceKey = @"OSKFacebookActivit
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-facebook.png";
+}
+
 + (UIImage *)settingsIcon {
     return [self iconForIdiom:UIUserInterfaceIdiomPhone];
 }

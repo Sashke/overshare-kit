@@ -54,6 +54,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-readinglist.png";
+}
+
 + (UIImage *)settingsIcon {
     return [UIImage imageNamed:@"ReadingList-Icon-29.png"];
 }

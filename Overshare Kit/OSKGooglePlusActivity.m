@@ -102,6 +102,10 @@ static NSInteger OSKGooglePlusActivity_MaxImageCount = 3;
     return [UIImage imageNamed:@"GooglePlus-Icon-29.png"];
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-googleplus.png";
+}
+
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_Generic;
 }

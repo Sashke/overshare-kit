@@ -121,6 +121,10 @@ NSString * const OSKActivityType_SDK_Pocket = @"OSKActivityType_SDK_Pocket";
     return nil;
 }
 
++ (NSString *)horizontalPullIconName {
+    return nil;
+}
+
 + (OSKAuthenticationMethod)authenticationMethod {
     NSAssert(NO, @"OSKActivity subclasses must override `authenticationMethod` without calling super.");
     return OSKAuthenticationMethod_None;

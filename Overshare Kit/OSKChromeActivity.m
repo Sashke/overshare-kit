@@ -88,6 +88,10 @@ static NSString * OSKChromeActivity_URLQueryKey = @"url";
     return [UIImage imageNamed:@"Chrome-Icon-29.png"];
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-chrome.png";
+}
+
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_None;
 }

@@ -58,6 +58,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-camera.png";
+}
+
 
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_None;

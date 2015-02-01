@@ -50,6 +50,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-email.png";
+}
+
 
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_None;

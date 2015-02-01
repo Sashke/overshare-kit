@@ -72,6 +72,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-pinboard.png";
+}
+
 + (UIImage *)settingsIcon {
     return [UIImage imageNamed:@"osk-pinboardIcon-29.png"];
 }

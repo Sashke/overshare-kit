@@ -57,6 +57,10 @@ static NSString * OSKThingsActivity_AddEntryWithNoteURL = @"add?title=%@&notes=%
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-things.png";
+}
+
 + (UIImage *)settingsIcon {
     return [self iconForIdiom:UIUserInterfaceIdiomPhone];
 }

@@ -49,6 +49,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-sms.png";
+}
+
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_None;
 }

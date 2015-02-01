@@ -80,6 +80,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-pocket.png";
+}
+
 + (UIImage *)settingsIcon {
     return [UIImage imageNamed:@"Pocket-Icon-29.png"];
 }

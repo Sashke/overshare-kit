@@ -77,6 +77,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-readability.png";
+}
+
 + (UIImage *)settingsIcon {
     return [UIImage imageNamed:@"osk-readabilityIcon-29.png"];
 }

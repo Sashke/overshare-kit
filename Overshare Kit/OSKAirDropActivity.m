@@ -53,6 +53,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-airdrop.png";
+}
+
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_None;
 }

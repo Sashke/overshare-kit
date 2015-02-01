@@ -54,6 +54,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-copy.png";
+}
+
 
 + (OSKAuthenticationMethod)authenticationMethod {
     return OSKAuthenticationMethod_None;

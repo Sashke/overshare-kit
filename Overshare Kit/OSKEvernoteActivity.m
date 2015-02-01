@@ -108,6 +108,10 @@
     return image;
 }
 
++ (NSString *)horizontalPullIconName {
+    return @"shk-evernote.png";
+}
+
 + (UIImage *)settingsIcon {
     return [UIImage imageNamed:@"osk-evernoteIcon-29@2x.png"];
 }
