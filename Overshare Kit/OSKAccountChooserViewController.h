@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Overshare Kit. All rights reserved.
 //
 
+#import "OSKActivity.h"
+
 @import UIKit;
 @import Accounts;
 
@@ -34,5 +36,13 @@
                          activeAccount:(ACAccount *)account
                  accountTypeIdentifier:(NSString *)accountTypeIdentifier
                               delegate:(id <OSKAccountChooserViewControllerDelegate>)delegate;
+
+//Subclass
+- (void)addAccountButtonPressed:(id)sender;
+
+@property (strong, nonatomic) NSMutableArray *accounts;
+@property (assign, nonatomic) OSKAuthenticationMethod authenticationMethod;
+@property (strong, nonatomic) OSKManagedAccount *selectedManagedAccount;
+@property (strong, nonatomic) ACAccount *selectedSystemAccount;
 
 @end

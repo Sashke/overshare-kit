@@ -3,7 +3,6 @@
 // Copyright (c) 2014 Overshare Kit. All rights reserved.
 //
 
-#import <GoogleOpenSource/GoogleOpenSource.h>
 #import "OSKVkComActivity.h"
 #import "OSKShareableContentItem.h"
 #import "OSKPresentationManager.h"
@@ -141,7 +140,6 @@
 }
 
 - (void)vkSdkUserDeniedAccess:(VKError *)authorizationError {
-    [[[UIAlertView alloc] initWithTitle:nil message:@"Access denied" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
 }
 
 #pragma mark - Authentication Timeout
